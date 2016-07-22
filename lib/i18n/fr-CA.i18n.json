@@ -1,0 +1,530 @@
+{
+    "_locale": "fr-CA",
+    "_namespace": "common",
+    "menu": {
+        "menu1": "Équipe",
+        "menu2": "Expertise",
+        "dashboard": "Espace client",
+        "lang": "EN"
+    },
+    "footer": {
+        "copyright": "© 2015 Agence TALK Marketing. Touts&nbsp;droits&nbsp;réservés.",
+        "cta": "Dites bonjour",
+        "privacy": "Confidentialité"
+    },
+    "home": {
+        "pageTitle":"Accueil",
+        "tagline": "Agence marketing et web",
+        "title": "Donnez corps à vos idées.",
+        "cta": "Voyez comment"
+    },
+    "animation": {
+        "frame1": "Ça, c'est vous.",
+        "frame2": "Et ça, c'est votre idée.",
+        "frame3": "Celle qu'on voit aller loin,",
+        "frame4": {
+            "p1": "à conquérir le marché",
+            "p2": "nord-américain,"
+        },
+        "frame5": "à parcourir le monde.",
+        "frame6": {
+            "p1": "Pour y arriver, il faut",
+            "p2": "un plan solide."
+        },
+        "frame7": {
+            "p1": "Vous appuyer avec",
+            "p2": "notre créativité",
+            "p3": "notre réseau",
+            "p4": "nos outils",
+            "p5": "notre savoir-faire"
+        },
+        "frame8": {
+            "p1": "c'est le truc qui",
+            "p2": "nous allume."
+        },
+        "frame9": {
+            "p1": "Pendant qu'on vous aide",
+            "p2": "à vous faire croître,"
+        },
+        "frame10": {
+            "p1": "vous vous concentrez à faire",
+            "p2": "ce que vous faites de mieux."
+        },
+        "frame11": {
+            "p1": "Parce qu'être vu n'est",
+            "p2": "pas toujours suffisant"
+        },
+        "frame12": {
+            "p1": "Ensemble on bâtit des",
+            "p2": "histoires de succès,"
+        },
+        "frame13": {
+            "p1": "des résultats concrets",
+            "p2": "et mesurables."
+        },
+        "frame14": {
+            "p1": "C'est",
+            "p2": "ça",
+            "p3": "qui nous rend fier."
+        },
+        "cta": {
+            "p1": "Faisons connaissance.",
+            "p2": "Dites bonjour"
+        },
+        "like": {
+            "p1": "J'aime",
+            "p2": "Partage avec tes amis"
+        },
+        "continue": {
+            "text": "<img src='/images/anim_continue_fr.svg' class='desktop' alt='go down' /><img src='/images/anim_continue_mobile_fr.svg' class='mobile' alt='go down' />"
+        },
+        "space": "<img src='/images/anim_spacebar_fr.svg' class='spaceBarPress' alt='Press spacebar to pause' /><img src='/images/anim_spacebar_en.svg' style='display:none;' class='spaceBarPress' alt='Press spacebar to pause' />"
+    },
+    "team": {
+        "teamSlider": {
+            "taglineF": "Elle c'est",
+            "taglineM": "Lui c'est",
+            "boutonTitle": "Mais encore?",
+            "msTitles": {
+                "t1": "Conseillère en communication",
+                "t2": "Adoratrice de félins",
+                "t3": "#lafilleàhashtag",
+                "t41":"Apprentie grimpeuse",
+                "t42":"et ballerine",
+                "t5": "Insatiable lectrice",
+                "t6": "Exploratrice en herbe"
+            },
+            "dTitles": {
+                "t1": "Developpeur",
+                "t2": "Les dreads",
+                "t31": "He has 99 problems",
+                "t32": "but code ain’t one.",
+                "t41": "Celui qui remet",
+                "t42": "tout en question",
+                "t51": "Amateur de",
+                "t52": "téléguidés",
+                "t6": "Météorite sans caféine",
+                "t7": "Sportif cartésien",
+                "t81": "Gardien des bonnes",
+                "t82": "pratiques du web"
+            },
+            "plTitles": {
+                "t11": "Designer graphique,",
+                "t12":"web et UI",
+                "t21": "Celui qu’on ne doit pas",
+                "t22": "exposer au soleil",
+                "t31": "Amateur de jeux vidéo",
+                "t32": "et d’eSports",
+                "t4": "Le gars de New Look.",
+                "t5": "Le clown",
+                "t6": "La barbe",
+                "t71": "Fan de hockey",
+                "t72": "- Go Flyers!",
+                "t81": "Joueur de soccer et",
+                "t82": "sportif de salon",
+                "t9": "L’artiste cartésien"
+            },
+            "myTitles": {
+                "t1": "Présidente",
+                "t2": "Artiste cachée",
+                "t3": "La rassembleuse",
+                "t4": "La chef d’orchestre",
+                "t5": "Yogi"
+            },
+            "eTitles": {
+                "t1": "Compositeur, concepteur",
+                "t1": "et réalisateur sonore",
+                "t2": "Karate kid",
+                "t3": "Sauveteur",
+                "t4": "Celui qui ne veut pas déranger",
+                "t5": "Le maître de la mélodie",
+                "t61": "Le gars qui a",
+                "t62": "la langue dans sa poche"
+            },
+            "aTitles": {
+                "t11": "Graphiste et",
+                "t12": "photographe",
+                "t2": "La boule d’énergie",
+                "t3": "L’apprentie fermière",
+                "t4": "Notre pusher de bonbons",
+                "t5": "Accro au café #2",
+                "t6": "Dévoreuse de livres",
+                "t71": "Moitié princesse,",
+                "t72": "moitié ninja",
+                "t8": "Championne d’épellation",
+                "t9": "Dompteuse d’écureuils"
+            },
+            "kTitles": {
+                "t1": "Président de TALK Entreprises",
+                "t2": "Membre du SETI",
+                "t3": "Le papa de TALK",
+                "t4": "Le stratège",
+                "t5": "Gourou du marketing",
+                "t61": "Master of his fate,",
+                "t62": "captain of his soul",
+                "t7": "Chauve, mais optimiste",
+                "t8": "Accro au café"
+            }
+        },
+        "culture": {
+            "tag": "Culture",
+            "title": "Nous sommes&nbsp;TALK",
+            "text": "Notre équipe, c'est autant une famille qu'un savant mélange de talents hétéroclites. Accros de marketing créatif et surplombant la masse, nous sommes fiers de qui nous sommes et de ce que nous livrons. Nous sommes dévoués à nos clients avec qui nous formons une alliance de réussite et des liens humains précieux. C'est ce que nous sommes, ce qui nous distingue."
+        },
+        "photos": {
+            "tag": "Photos",
+            "title": "Pendant&nbsp;ce&nbsp;temps, chez&nbsp;TALK",
+            "travel1": "Les employés de TALK",
+            "travel2": "ont visité 26,16% de la Terre.",
+            "drink": "Ce qu'on boit au&nbsp;travail.",
+            "poutineTag": "10 octobre 2015",
+            "poutine": "L'équipe de TALK a tenté en vain de manger la \"crise cardiaque\" de Poutineville.",
+            "computer": "Chez TALK, on est",
+            "plantTag": "Le saviez-vous?",
+            "plant": "Dans nos bureaux, il y a autant de plantes que d'employés.",
+            "loadMoreButton": "Charger plus",
+            "socialnetworkTag": "Réseaux sociaux",
+            "socialnetwork": "Suivez nos péripéties au quotidien."
+        },
+        "jobs": {
+            "jobTag": "Carrière",
+            "jobTitle": "Plus on est de fous, plus on&nbsp;crée.",
+            "jobMotionTitle1": "Motion designer autonome",
+            "jobMotionTitle2": "et polyvalent",
+            "jobMotionText": "Tu développeras des concepts originaux et tu travailleras en collaboration avec le designer graphique pour les animations et les vidéos à réaliser.",
+            "jobButton": "Afficher l'offre",
+            "jobGeneralTitle1": "Notre équipe n'est jamais",
+            "jobGeneralTitle2": "assez grande.",
+            "jobGeneralText": "Tu as la certitude que ton talent peut amener nos projets plus loin? On est toujours heureux d’ouvrir de nouveaux postes pour les créatifs qui sortent du lot.",
+            "jobGeneralButton": "Envoyer un CV",
+            "jobDevTitle":"Developpeur front-end",
+            "jobDevTitle1":"Developpeur front-end",
+            "jobDevTitle2":"minutieux",
+            "jobDevText":"Sous la supervision du développeur Web et en collaboration avec le designer, tu seras responsable des éléments du site que l’on voit à l’écran et avec lesquels on peut interagir.",
+            "spontaneous":"Application spontanée"
+        }
+    },
+    "jobs":{
+        "changeJob":"Défilez pour changer de page",
+        "spontaneousTag":"TALK est peut-être à la recherche de",
+        "spontaneous":"Ton talent"
+    },
+    "motionDesigner": {
+        "tag": "TALK recherche un/une",
+        "title": "Motion designer",
+        "intro": {
+            "t1": "Type",
+            "l1": "Temps plein",
+            "t2": "Ville",
+            "l2": "Québec",
+            "t3": "Domaine principal",
+            "l3": "Motion design et montage vidéo",
+            "t4": "Années d'expérience pertinentes&nbsp;minimum",
+            "l4": "3 ans",
+            "t5": "Scolarité minimum",
+            "l5": "Baccalauréat",
+            "t6": "Date limite des&nbsp;candidatures",
+            "l6": "Ouvert",
+            "t7": "Salaire",
+            "l7": "À discuter, selon l'expérience"
+        },
+        "jobDescMotion": {
+            "title": "Description du poste",
+            "profile": {
+                "title": "Profil recherché",
+                "l1": "Tu as une formation spécialisée en design, multimédia ou tout autre domaine&nbsp;pertinent.",
+                "l2": "Tu as de l’expérience en motion design ou animation 2D, ainsi qu’en montage&nbsp;vidéo.",
+                "l3": "Tu connais les différentes étapes de réalisation et d’exécution d’un&nbsp;projet.",
+                "l4": "Tu connais la suite Adobe (After Effects et Premiere plus&nbsp;particulièrement).",
+                "l5": "Tu es constamment à l’affût des tendances dans ton&nbsp;domaine.",
+                "l6": "Tu portes une importance particulière à la formation&nbsp;continue.",
+                "l7": "Tu es débrouillard, autonome et&nbsp;méticuleux.",
+                "l8": "Tu es à l’aise dans un environnement en constante&nbsp;évolution.",
+                "l9": "Tu sais bien gérer ton&nbsp;temps."
+            },
+            "bonus": {
+                "title": "Bonus",
+                "l1": "Tu maîtrises très bien le français but you can switch to English whenever it’s needed (spoken and written).",
+                "l2": "Tu connais le storyboarding.",
+                "l3": "Tu connais les techniques de production filmiques, caméras, éclairage, prise de son."
+            },
+            "responsabilites": {
+                "title": "Responsabilités principales",
+                "l1": "Tu participeras aux brainstorms de création.",
+                "l2": "Tu développeras des concepts originaux en lien avec les enjeux stratégiques des mandats.",
+                "l3": "Tu travailleras en collaboration avec le designer graphique pour les animations et les vidéos à réaliser.",
+                "l4": "Tu suivras les étapes de pré-production (scénario et scénarimage) et de production (visuels, animations, montage).",
+                "l5": "Tu produiras diverses animations visuelles en appliquant le concept choisi et élaboré.",
+                "l6": "Tu feras du montage vidéo (environ 50% du temps de travail)."
+            },
+            "mandats": {
+                "title": "Types de mandats",
+                "l1": "Animation de divers éléments visuels (logos, génériques, vidéos promotionnels, etc.).",
+                "l2": "Animation sur le Web avec le programmeur.",
+                "l3": "Habillage vidéo.",
+                "l4": "Montage vidéo (teaser de films, vidéos promotionnels, etc.).",
+                "l5": "Autres tâches connexes."
+            }
+        },
+        "workAtTalk": {
+            "title": "Tu adoreras travailler chez nous pour",
+            "l1": "La possibilité de travailler sur des projets de clients différents, présentant des réalités et des défis communicationnels différents.",
+            "l2": "La participation aux processus créatifs. Les brainstorms se font avec tous les membres de l’équipe qui désirent participer!",
+            "l3": "La satisfaction de participer au renforcement de ressources communautaires et socialement engagées.",
+            "l4": "L’ambiance chaleureuse, presque familiale.",
+            "l5": "L’environnement décontracté",
+            "l6": "L’espace de travail ouvert et le local très lumineux, situé sur St-Joseph Est à proximité des transports en commun, des restaurants et de boutiques.",
+            "l7": "La chance de faire partie d’une équipe passionnée, jeune de cœur, axée sur l’humain et bouillonnante de créativité."
+        },
+        "cta": {
+            "title": "Alors t'embarques?",
+            "button": "Postuler"
+        },
+        "form": {
+            "name": "Nom*",
+            "courriel": "Courriel*",
+            "message": "Message*",
+            "tip": "(Profites-en pour glisser l'adresse de ton portfolio.)",
+            "upload": "Curriculum vitæ",
+            "button": "Envoyer",
+            "note": "*Champs obligatoires"
+        },
+        "otherPositions": {
+            "title": "Autres postes disponibles",
+            "p1": "",
+            "p2": ""
+        },
+        "buttonTop": "Haut de page",
+        "buttonClose": "Fermer"
+    },
+    "frontEnd":{
+        "title":"Developpeur front-end",
+        "intro": {
+            "l1": "Temps plein",
+            "l2": "Québec",
+            "l3": "Développement Web",
+            "l4": "1 à 2 années d’expérience",
+            "l5": "Collégial",
+            "l6": "Ouvert",
+            "l7": "À discuter, selon l’expérience"
+        },
+        "jobDescDev": {
+            "title": "Description du poste",
+            "profile": {
+                "title": "Ton profil",
+                "l1": "Tu es très minutieux : aucun détail n’échappe à ton œil de lynx.",
+                "l2": "Tu es un team player.",
+                "l3": "Tu connais bien HTML/JS/CSS : ce sont tes bons potes.",
+                "l4": "Tu as déjà travaillé avec un framework CSS (SASS/SCSS, Materialize, Bootstrap).",
+                "l5": "Tu as de l’expérience dans le développement multiplateformes, incluant le mobile.",
+                "l6": "Tu es passionné par l’industrie du numérique et sa formidable évolution.",
+                "l7": "Tu possèdes une excellente connaissance des dernières technologies et tu es constamment à l’affut des nouvelles tendances.",
+                "l8": "Tu es multitâches : tu possèdes une grande capacité à passer d’un projet à l’autre en une journée, tu es super flexible (on ne parle pas de ta capacité à faire le grand écart) et tu sais t’adapter.",
+                "l9": "Tu es curieux et enthousiaste.",
+                "l10": "Tu es autonome et tu sais bien gérer ton stress.",
+                "l11": "Tu es à l’aise dans un environnement en constante évolution."
+            },
+            "bonus": {
+                "title": "Bonus",
+                "l1": "Tu as de l’expérience avec HTML 5 (canvas, webGL, webaudio API).",
+                "l2": "Tu as de l’expérience avec des frameworks front-end comme Angular, React, Blaze.",
+                "l3": "Tu as une bonne compréhension du modèle MVC.",
+                "l4": "Tu es à l’aise avec Photoshop et Illustrator.",
+                "l5": "Tu adores la poutine et/ou les sushis. (C’est une blague… ou presque)."
+            },
+            "responsabilites": {
+                "title": "Tes tâches",
+                "l1": "Tu reproduiras sur le Web les maquettes créées par le designer.",
+                "l2": "Tu créeras les animations et les interactions pour les projets Web.",
+                "l3": "Tu optimiseras les images.",
+                "l4": "Tu t’assureras que le site Web fonctionne sur toutes les différentes plateformes et navigateurs.",
+                "l5": "Tu participeras aux brainstorms de création et de stratégie.",
+                "l6": "Tu devras être proactif et efficace."
+            },
+            "work": {
+                "title": "Ton travail",
+                "l1": "Sous la supervision du développeur Web et en collaboration avec le designer, tu seras responsable des éléments du site que l’on voit à l’écran et avec lesquels on peut interagir."
+            }
+        }
+    },
+    "expertise": {
+        "project": {
+            "Tag": "Projet récent",
+            "Title": "Les leçons du&nbsp;Maestro",
+            "Button": "Voir l'étude de cas"
+        },
+        "servicelist": {
+            "tag": "Savoir-faire",
+            "title": "Ce n'est pas pour nous vanter, mais tout ça ne s'improvise pas.",
+            "strategy": {
+                "title": "Stratégie",
+                "i1": "Stratégie d'affaires",
+                "i2": "Plan marketing",
+                "i3": "Plan de communication",
+                "i4": "Stratégie numérique",
+                "i5": "Consultation en communication, web&nbsp;et marketing"
+            },
+            "production": {
+                "title": "Production",
+                "i1": "Création d’image de marque, publicitaire et imprimé",
+                "i2": "Design et développement web",
+                "i3": "Production vidéo",
+                "i4": "Campagne de marketing direct"
+            },
+            "support": {
+                "title": "Accompagnement",
+                "i1": "Solutions de production, transport et&nbsp;entreposage",
+                "i2": "Mise en marché et suivi des ventes",
+                "i3": "Gestion des médias sociaux",
+                "i4": "Gestion de boutique en ligne"
+            },
+            "leftover": {
+                "title": "Et tout le reste",
+                "i1": "Acquisition de licences",
+                "i2": "Solutions de centres d’appels",
+                "i3": "Organisation d’événements",
+                "i4": "Relations publiques",
+                "i5": "Recherche de partenaires et&nbsp;commanditaires"
+            }
+        },
+        "clientzone": {
+            "title": "L'espace client",
+            "slide1": "vous tient informé de la progression de vos projets en un coup d’oeil.",
+            "slide2": "vous permet de commenter et approuver ce que l’on vous présente.",
+            "slide3": "facilite le partage de documents avec nous.",
+            "slide4": "évite la perte d’information en regroupant tous les documents relatifs à vos projets.",
+            "p1":"/images/dashboard/talk_dash_deskt_suivi.jpg",
+            "p2":"/images/dashboard/talk_dash_deskt_approb.jpg",
+            "p3":"/images/dashboard/talk_dash_deskt_depot.jpg",
+            "p4":"/images/dashboard/talk_dash_deskt_documentation.jpg",
+            "p1m":"/images/dashboard/talk_dash_mobile_suivi.jpg",
+            "p2m":"/images/dashboard/talk_dash_mobile_approb.jpg",
+            "p3m":"/images/dashboard/talk_dash_mobile_depot.jpg",
+            "p4m":"/images/dashboard/talk_dash_mobile_documentation.jpg"
+        },
+        "projects": {
+            "tag": "Projets",
+            "title": "Il y a de quoi être&nbsp;fier",
+            "loadMoreButton": "Charger plus",
+            "video": "Voir la vidéo"
+        }
+    },
+    "uvbProjects": {
+        "tag": "Ultimate Voice Builder (UVB)",
+        "title": "Les leçons du&nbsp;Maestro",
+        "intro": "Il y a quelques années, Gary Catona, le Maestro des stars de Hollywood, avait eu comme idée de commercialiser sa technique de développement de la voix sur DVD. Le projet ayant été abandonné, nous avons alors repris le mandat. Le plus grand défi était d’en faire la promotion sans pouvoir utiliser les noms de ses étudiants célèbres. Nous avons utilisé notre créativité et notre savoir-faire pour relevé le défi!",
+        "bloc1": {
+            "title": "Image de marque",
+            "p": "Refonte de l’image de marque et de la présentation visuelle du DVD, afin de lui donner un aspect plus attrayant et plus professionnel."
+        },
+        "bloc2": {
+            "title": "Contenu du DVD",
+            "p": "Remasterisation et réédition du DVD. Révision et ajustement du contenu pour une offre internationale."
+        },
+        "bloc3": {
+            "title": "Initiative web",
+            "p": "Production de capsules vidéo dans notre studio. Développement d’une plateforme Web de diffusion en continu. Remise au client de la gestion entière du site Web."
+        },
+        "work": {
+            "title": "Travail réalisé",
+            "webPage": {
+                "p1": "Accueil",
+                "p2": "Présentation",
+                "p3": "À propos",
+                "p4": "Témoignages",
+                "p5": "Stream"
+            },
+            "video": "Voir la vidéo"
+        },
+        "testimonial": {
+            "tag": "Ce que la présidente en pense",
+            "quote": "«Travailler dans le monde des stars hollywoodiennes n’est pas chose aisée, puisque ceux-ci ont de très hauts standards. Nous sommes donc fiers d’avoir été à la hauteur et d’avoir satisfait notre client!»"
+        },
+        "stats": {
+            "s1title": "30",
+            "s1text": "Initialement, c'est principalement en raison du format que le programme DVD Ultimate Voice Builder a été exclusivement vendu aux États-Unis. Après sa mise en ligne, c'est à travers le monde entier qu'on se l'arrachait , et ce, dans plus de 30 pays, tels que le Japon, le Royaume-Uni et l'Australie.",
+            "s2title": "300%",
+            "s2text": "Les ventes ont bondi de 300&nbsp;% suite au lancement de la plate-forme de vidéos en ligne Ultimate Voice Builder.",
+            "s3title": "50%",
+            "s3text": "Plus de 50&nbsp;% de toutes les ventes du programme Ultimate Voice Builder proviennent désormais de la plate-forme de vidéos en ligne."
+        },
+        "cta": {
+            "title": "Travaillons ensemble",
+            "button": "Dites bonjour"
+        },
+        "buttonTop": "Haut de page",
+        "buttonClose": "Fermer"
+    },
+    "contact": {
+        "title": "On est toujours heureux de faire des nouvelles rencontres.",
+        "mail": {
+            "title": "Écrivez-nous! On regarde nos courriels de temps en temps. Ok,&nbsp;souvent.",
+            "f1": "Nom*",
+            "f2": "Courriel*",
+            "f3": "Qu'est-ce qu'on peut faire pour&nbsp;vous?*",
+            "button": "Envoyer",
+            "note": "*Champs obligatoires"
+        },
+        "phone": {
+            "title1": "On a encore les bons vieux",
+            "title2": "téléphones. Avec des fils.",
+            "phone1Title": "Au Canada",
+            "phone1": "418-781-9917",
+            "phone2Title": "Aux États-Unis",
+            "phone2": "310-776-7576",
+            "email": "info@TALK.marketing"
+        },
+        "adress": {
+            "title1": "Venez nous voir, on fait",
+            "title2": "du bon café.",
+            "l1": "830 rue Saint-Joseph Est",
+            "l2": "Suite 204",
+            "l3": "Québec (Qc), Canada",
+            "l4": "G1K 3C9",
+            "button": "Besoin d'une carte?"
+        },
+        "career": {
+            "title1": "Plus on est de fous,",
+            "title2": "plus on crée.",
+            "j1": "Motion designer",
+            "j2": "Developpeur front-end",
+            "noJobs": "0 poste à combler",
+            "text": "Tu as la certitude que ton talent peut amener nos projets plus loin? On est toujours heureux d’ouvrir de nouveaux postes pour les créatifs qui sortent du lot.",
+            "button": "En savoir plus"
+        }
+    },
+    "the404":{
+        "miniTitle":"Page introuvable.",
+        "phrase1":"Nous n'avons pas trouvé la page que vous cherchiez, ",
+        "phrase2":"mais nous avons trouvé: lui. Faites attention, il est spécial.",
+        "button":"Retourner à la page d'accueil"
+    },
+    "error":{
+        "contactSuccess":"Message envoyé",
+        "jobSuccess":"Nous évaluons votre candidature et y répondrons dans les meilleurs délais.",
+        "error":"Tous les champs sont obligatoires.",
+        "failed":"Une erreur est survenue de notre côté, réessayer plus tard."
+    },
+    "meta":{
+        "description":"Votre idée veut s'ouvrir sur le monde ? Collez-vous à notre équipe dévouée d'accros de marketing créatif, et formez avec nous une alliance de réussite. Hissons votre idée sur la scène mondiale.",
+        "image":"http://www.talk.marketing/images/talk_metapost_fr.jpg"
+    },
+    "page":{
+        "home":"Accueil",
+        "team":"Équipe"
+    },
+    "privacy":{
+        "t1":"Politique de confidentialité",
+        "p1":"L’AGENCE TALK MARKETING ING (TALK) prend les questions de confidentialité très au sérieux et prend les mesures nécessaires pour assurer la confidentialité des informations qui vous concernent personnellement. Par «renseignements personnels», nous entendons tout renseignement sur vous que vous nous fournissez volontairement et qui est utilisé pour vous identifier.",
+        "t2":"Protection de votre information sur http: //www.talk.marketing",
+        "p2":"Les renseignements personnels recueillis par TALK http://www.talk.marketing sont strictement confidentiels. Les seuls employés ayant accès à ces renseignements personnels sont ceux qui sont autorisés à traiter les questions ou demandes qui concernent les informations fournies. Sauf obligation de fournir un service auquel vous êtes inscrit ou pour donner effet à une ordonnance du tribunal, les informations personnelles ne seront jamais rendus publiques ou vendues ni communiquées à des tiers sans votre consentement. TALK applique différentes règles pour protéger vos renseignements personnels. Nous ne divulguons pas d’informations sur nos membres sans leur consentement.",
+        "t3":"Pourquoi recueillons-nous des renseignements personnels sur ce site?",
+        "p3":"Les renseignements personnels que nous recueillons sur vous sur http://www.talk.marketing  sont utilisés pour traiter les demandes en ligne que vous nous adressez.",
+        "t4":"Renseignements recueillis automatiquement",
+        "p4":"Les « cookies » ou « témoins » sont des petits fichiers texte qui s’incorporent dans votre disque dur à partir de certaines pages Web. Nous ne les utilisons pas sur ce site.",
+        "t5":"Liens vers des sites tiers",
+        "p5":"Pour votre commodité, http://www.talk.marketing  fournit des liens vers les sites de tiers ou des sections de leurs sites. Cependant, TALK n’a aucun contrôle sur le contenu ou le fonctionnement de ces sites, ni ne contrôle la confidentialité ou des pratiques de confidentialité des exploitants de sites. Par conséquent, toutes les informations personnelles que vous transmettez par l’intermédiaire de ces sites est régie par les politiques des sites en question de la vie privée. Il est donc de votre responsabilité de vous renseigner sur leurs politiques afin de protéger les données qui vous concernent.",
+        "t6":"Politique de courriel",
+        "p6":"TALK ne fait aucune sollicitation pour obtenir des informations personnelles et confidentielles par courriel ou autrement."
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "talkweb",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "autoprefixer": "^6.3.6",
+    "compass": "^0.1.1",
+    "domready": "^1.0.8",
+    "meteor-node-stubs": "~0.2.0",
+    "mkg-share": "^0.3.0",
+    "react": "^15.1.0",
+    "react-addons-css-transition-group": "^15.0.1",
+    "react-dom": "^15.1.0",
+    "react-gsap-enhancer": "^0.2.2",
+    "react-mounter": "^1.1.0",
+    "rucksack-css": "^0.8.6"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {
+        "browsers": [
+          "last 3 versions"
+        ]
+      },
+      "rucksack-css": ""
+    }
+  }
+}

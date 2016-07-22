@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="260.9px" height="250.5px" viewBox="0 0 260.9 250.5" enable-background="new 0 0 260.9 250.5" xml:space="preserve">
+<g>
+	<polygon fill="#230C43" points="124,236.4 124,232.2 129.2,231.5 129.2,236.4 	"/>
+	<polygon fill="#230C43" points="130,231.4 137,230.4 137,236.4 130,236.4 	"/>
+	<polygon fill="#230C43" points="137,237.3 137,243.4 130,242.4 130,237.3 	"/>
+	<polygon fill="#230C43" points="129.2,242.3 124,241.6 124,237.3 129.2,237.3 	"/>
+</g>
+<ellipse fill="#E86824" cx="130.5" cy="188.3" rx="119.3" ry="4.1"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="130.6091" y1="137.0183" x2="130.4226" y2="240.3089">
+	<stop  offset="0" style="stop-color:#1B0F2C"/>
+	<stop  offset="0.1141" style="stop-color:#1D112E"/>
+	<stop  offset="0.2031" style="stop-color:#201433"/>
+	<stop  offset="0.2836" style="stop-color:#26183D"/>
+	<stop  offset="0.3591" style="stop-color:#2D1E4A"/>
+	<stop  offset="0.431" style="stop-color:#37235B"/>
+	<stop  offset="0.5004" style="stop-color:#412971"/>
+	<stop  offset="0.5664" style="stop-color:#4A2D8D"/>
+	<stop  offset="0.5708" style="stop-color:#4B2E90"/>
+	<stop  offset="0.5892" style="stop-color:#4A2D8B"/>
+	<stop  offset="0.6103" style="stop-color:#462A82"/>
+	<stop  offset="0.6327" style="stop-color:#402574"/>
+	<stop  offset="0.656" style="stop-color:#361D61"/>
+	<stop  offset="0.6798" style="stop-color:#28114A"/>
+	<stop  offset="0.6866" style="stop-color:#230C43"/>
+</linearGradient>
+<path fill="url(#SVGID_1_)" d="M170.8,189.1H90.2c0,0,0,0-0.1,0c-2.3,0-2.9-3.2-0.9-4.3l27.8-14.2v-36.9h27v36.9l27.8,14.2
+	c1.7,0.9,1.6,3.6-0.2,4.1C171.3,189.1,171.1,189.1,170.8,189.1z"/>
+<rect x="0.1" fill="#230C43" width="260.8" height="135.8"/>
+<rect x="8.5" y="8.4" opacity="0.2" fill="#60C5E0" width="243.9" height="119"/>
+</svg>

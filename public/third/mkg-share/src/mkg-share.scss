@@ -1,0 +1,85 @@
+ $networks: (
+  email:#4A586F,
+  facebook:#3B5998,
+  googleplus:#E34429,
+  linkedin:#027bb6 ,
+  pinterest:#C5282F,
+  reddit:#a1caf2,
+  twitter:#27aae1,
+  whatsapp:#25D366,
+  sms:#63908D
+);
+
+.mshare{font-size: 0;white-space: nowrap;overflow: hidden;
+  &--pane{
+    position: absolute;top:-45px;left:50%;z-index: 1;
+  }
+  &-item{padding: 0 10px;color: #fff;cursor: pointer;display: inline-block;line-height: 36px;text-decoration: none;user-select:none;touch-action:manipulation;
+    &:hover,&:visited{text-decoration: none;}
+    &-text{font-size:13px;color:#fff;vertical-align: middle;
+      &:not(:empty){margin-left:10px;}
+    }
+    &-icon{height:1.4em;width:1.4em;font-size:15px;fill:#fff;vertical-align: middle;
+      &:first-child:last-child{padding:0 5px;}
+    }
+
+    &--email,&--email:visited,&--email:hover{background-color: #{map-get($networks, 'email')};color:#{map-get($networks, 'email')};}
+    &--facebook,&--facebook:visited,&--facebook:hover{background-color: #{map-get($networks, 'facebook')};color:#{map-get($networks, 'facebook')};
+    .mshare-item-icon{margin-top:-0.1em;}
+  }
+    &--googleplus,&--googleplus:visited,&--googleplus:hover{background-color: #{map-get($networks, 'googleplus')};color:#{map-get($networks, 'googleplus')};
+      .mshare-item-icon{width: 1.7em;height: 1.7em;}
+    }
+    &--linkedin,&--linkedin:visited,&--linkedin:hover{background-color: #{map-get($networks, 'linkedin')};color:#{map-get($networks, 'linkedin')};
+      .mshare-item-icon{margin-top:-0.25em;}
+  }
+    &--pinterest,&--pinterest:visited,&--pinterest:hover{background-color: #{map-get($networks, 'pinterest')};color:#{map-get($networks, 'pinterest')};
+    .mshare-item-icon{width: 1.25em;height: 1.25em;margin-top:0.2em;}
+  }
+    &--reddit,&--reddit:visited,&--reddit:hover{background-color: #{map-get($networks, 'reddit')};color:#{map-get($networks, 'reddit')};
+    .mshare-item-icon{width: 1.7em;height: 1.7em;}
+}
+    &--twitter,&--twitter:visited,&--twitter:hover{background-color: #{map-get($networks, 'twitter')};color:#{map-get($networks, 'twitter')};}
+    &--whatsapp,&--whatsapp:visited,&--whatsapp:hover{background-color: #{map-get($networks, 'whatsapp')};color:#{map-get($networks, 'whatsapp')};}
+    &--sms,&--sms:visited,&--sms:hover{background-color: #{map-get($networks, 'sms')};color:#{map-get($networks, 'sms')};}
+  }
+  &-native{display: inline-block;font-size:1rem;vertical-align: top;padding:4px 6px;min-width: 52px;
+    &--email{}
+    &--facebook{}
+    &--googleplus{}
+    &--linkedin{}
+    &--pinterest{}
+    &--reddit{}
+    &--twitter{}
+    &--whatsapp{}
+    &--sms{}
+}
+
+
+  &__container{position: relative;}/*!owner element*/
+  &__metacontainer{}
+
+  &--open:not(.mshare--native){height:40px;visibility:visible;transform:translate3d(0,0,0);opacity:1;transition:transform 450ms cubic-bezier(0.515, 0.570, 0.110, 0.980), opacity 450ms cubic-bezier(0.515, 0.570, 0.110, 0.980), height 0ms;}
+  &--close:not(.mshare--native){height:0px;transform:translate3d(0,20px,0);opacity:0;transition:transform 350ms cubic-bezier(0.515, 0.570, 0.110, 0.980), opacity 350ms cubic-bezier(0.515, 0.570, 0.110, 0.980), height 0ms 350ms;pointer-events: none}
+  &--open.mshare--native{height:40px;visibility:visible;transform:translate3d(-50%,0,0);opacity:1;transition:transform 450ms cubic-bezier(0.515, 0.570, 0.110, 0.980), opacity 450ms cubic-bezier(0.515, 0.570, 0.110, 0.980), height 0ms;}
+  &--close.mshare--native{height:0px;transform:translate3d(-50%,20px,0);opacity:0;transition:transform 350ms cubic-bezier(0.515, 0.570, 0.110, 0.980), opacity 350ms cubic-bezier(0.515, 0.570, 0.110, 0.980), height 0ms 350ms;pointer-events: none}
+
+
+  &--button{cursor: pointer;user-select:none;touch-action:manipulation;}
+  &--expanded{margin:1em;
+    .mshare-item{margin:0 5px;padding: 0 12px;}
+  }
+  &--small{height:30px;top:-35px;
+    .mshare-item{height:30px;line-height: 30px;padding: 0 5px;
+      &-text{font-size:11px;}
+      &-icon{font-size:13px;}
+    }
+    .mshare-item{}
+    &.mshare--expanded .mshare-item{padding:0 14px;}
+  }
+
+
+  @media (max-width: 767px) {
+    &-item-text{display: none;}
+  }
+}

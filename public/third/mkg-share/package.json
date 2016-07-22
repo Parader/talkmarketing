@@ -1,0 +1,100 @@
+{
+  "_args": [
+    [
+      {
+        "name": "mkg-share",
+        "raw": "mkg-share",
+        "rawSpec": "",
+        "scope": null,
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\Talk\\Documents\\TALK\\TALK\\SiteWeb\\prod\\website\\talkweb\\v2"
+    ]
+  ],
+  "_from": "mkg-share@latest",
+  "_id": "mkg-share@0.3.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/mkg-share",
+  "_nodeVersion": "5.4.1",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/mkg-share-0.3.0.tgz_1465900152802_0.8915594157297164"
+  },
+  "_npmUser": {
+    "email": "mehmetkamilgulen@gmail.com",
+    "name": "mkg"
+  },
+  "_npmVersion": "3.9.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "mkg-share",
+    "raw": "mkg-share",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/mkg-share/-/mkg-share-0.3.0.tgz",
+  "_shasum": "47c1b2e4fd164d5ec7354ba21824df4f1e74c303",
+  "_shrinkwrap": null,
+  "_spec": "mkg-share",
+  "_where": "C:\\Users\\Talk\\Documents\\TALK\\TALK\\SiteWeb\\prod\\website\\talkweb\\v2",
+  "author": "",
+  "dependencies": {},
+  "description": "Easy way to add costumizable social share buttons to website including facebook, twitter, google plus, reddit, pinterest, linkedin, whatsapp, sms and e-mail. It auto detects mobile browsers and displays sms and whatsapp share buttons.",
+  "devDependencies": {
+    "argv": "0.0.2",
+    "autoprefixer-loader": "^3.2.0",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-es2015-classes": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "css-loader": "^0.23.1",
+    "expose-loader": "^0.7.1",
+    "html-loader": "^0.4.3",
+    "image-webpack-loader": "^1.8.0",
+    "node-sass": "^3.7.0",
+    "open": "0.0.5",
+    "parallel-webpack": "^1.4.0",
+    "sass-loader": "^3.2.0",
+    "string-replace-webpack-plugin": "0.0.3",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "47c1b2e4fd164d5ec7354ba21824df4f1e74c303",
+    "tarball": "https://registry.npmjs.org/mkg-share/-/mkg-share-0.3.0.tgz"
+  },
+  "gitHead": "726f9311e535430c6e8c1046b89408df6eed7015",
+  "keywords": [
+    "share",
+    "social",
+    "whatsapp",
+    "facebook",
+    "twitter",
+    "sms",
+    "pure js"
+  ],
+  "license": "MIT",
+  "main": "dist/mkg-share.npm.js",
+  "maintainers": [
+    {
+      "email": "mehmetkamilgulen@gmail.com",
+      "name": "mkg"
+    }
+  ],
+  "name": "mkg-share",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "build": "webpack --build",
+    "dev": "webpack-dev-server"
+  },
+  "version": "0.3.0"
+}
