@@ -171,11 +171,11 @@ header{height:88px;}
             .subMenuContainer{
                 position:relative; width:160px; height:44px;
                 .context{
-                    position:absolute; font-size:12px; text-align:right; width:230px; right:0; top:7px;
+                    position:absolute; font-size:12px; text-align:right; width:230px; right:0; top:7px; height: 36px;
                     ul{
                         padding:0;
                         li{
-                            display:inline-block; font-size:12px; color:$secondary;
+                            display:inline-block; font-size:12px; color:$secondary; padding:10px 20px; position:relative; top:-10px; right:-20px;
                             a{}
                         }
                     }
@@ -340,12 +340,13 @@ header{height:88px;}
         .loveContainer{
             margin-bottom:18%;
             .plusOne{
-                display:inline-block; position: relative; top: 5px;
+                display:inline-block; transition:all 300ms ease-out;
+                svg{position: relative; top: 5px;}
                 path{transition:all 300ms ease-out;}
                 &:hover{
-                    cursor:pointer;
-                    .round{fill:$primary;}
-                    .outline{fill:$primary;}
+                    cursor:pointer; color:$primary;
+                    path{fill:$primary;}
+
                 }
             }
             .lovedIt{text-transform:uppercase; border-bottom:1px solid $primary; padding-bottom:8px; margin:0 10px;}
@@ -512,11 +513,11 @@ svg #text .fr{opacity:0; visibility:hidden;}
                 .silencedweb{background-image:url("images/silencedweb.jpg");}
                 .silencedlogo{background-image:url("images/silencedlogo.jpg");}
                 .phitvid{background-image:url("images/phitvid.jpg");
-                    .overlay{background-image:url("images/overlay_carre.png");}
+                    .overlay{background-image:url("images/overlay_carre.png"); background-size:cover; background-position:50% 50%; background-repeat:no-repeat;}
                 }
                 .wceweb{background-image:url("images/wceweb.jpg");}
                 .silencedvid{background-image:url("images/silencedvid.jpg");
-                    .overlay{background-image:url("images/overlay_rect.png");}
+                    .overlay{background-image:url("images/overlay_rect.png"); background-size:cover; background-position:50% 50%; background-repeat:no-repeat;}
                 }
                 .mmvmweb{background-image:url("images/mmvmweb.jpg");}
                 .googleplex{background-image:url("images/googleplex.jpg");}
@@ -749,6 +750,12 @@ svg #text .fr{opacity:0; visibility:hidden;}
         }
     }
 }
+.agencyContainer:after{
+    position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+    content: url(http://d27t9uefwdhmj1.cloudfront.net/empty_place.jpg) url(http://d27t9uefwdhmj1.cloudfront.net/frontendDev.jpg) url(http://d27t9uefwdhmj1.cloudfront.net/motion_designer.jpg);
+    /*content: url("/images/motion_designer.jpg") url("/images/frontendDev.jpg") url("/images/empty_place.jpg") url("/images/cover-p1.jpg") url("images/1-karl.jpg") url("images/3-d.jpg") url("images/5-my.jpg") url("images/4-pl.jpg") url("images/6-eric.jpg") url("images/7-ame.jpg") url("images/2-ms.jpg");*/
+}
+
 
 /* CONTACT */
 .contactContainer{
@@ -1376,6 +1383,7 @@ footer, .footerContainer{
 @media screen and (max-width: 768px) {/*           ------------------------------768--------------------------------------                */
     .agencyContainer .team .teamContainer .sliderContainer > .swiper-wrapper > .swiper-slide .content h2 span.ln{position:absolute;}
     .homeContainer .landingWrapper .landingContainer .homeBGImage{background: url("/images/mobile_home.jpg") no-repeat 75% 50%; background-size:cover;}
+    .homeContainer .landingWrapper .landingContainer{background: url("/images/mobile_home.jpg") no-repeat 75% 50%; background-size:cover;}
 }
 
 @media screen and (max-width: 767px) {/*           ------------------------------767--------------------------------------                */
@@ -1666,8 +1674,11 @@ footer, .footerContainer{
 @media screen and (max-height: 500px) {/*           ------------------------------500--------------------------------------                */
     /* JOBS */
     .singleJobContainer .outlineContainer{visibility:hidden; opacity:0;}
-}
+    .singleJobContainer .heading .lineContainer{height: 60px;}
+    /* Single project */
+    .singleProjectContainer .heading .lineContainer{height: 60px;}
 
+}
 
 
 
