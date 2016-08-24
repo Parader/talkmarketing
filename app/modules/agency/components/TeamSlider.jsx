@@ -25,7 +25,14 @@ export default class TeamSlider extends React.Component {
             initialSlide:0 + Math.floor( Math.random() * (8 - 0)),
             preloadImages:true,
             onInit:function(){
-                TweenLite.to($(".sliderContainer"), 0.5, {autoAlpha:1});
+                if(Session.get("teamLoaded")){
+                    TweenLite.to($(".sliderContainer"), 0.5, {autoAlpha:1});
+                }else{
+                    setTimeout(function(){
+                        Session.set("teamLoaded", true);
+                        TweenLite.to($(".sliderContainer"), 0.5, {autoAlpha:1});
+                    },500);
+                }
             },
             onTouchStart:(swiper, event)=>{
                 if(!$(event.target).parent().hasClass("reroll") && !$(event.target).hasClass("fn") && !$(event.target).hasClass("reroll") && !$(event.target).hasClass("name")){

@@ -85,7 +85,7 @@ normalRoute = FlowRouter.group({
         }else{
             let gaScript = 'https://www.google-analytics.com/analytics.js';
             DocHead.loadScript(gaScript, function() {
-                ga('create', Meteor.settings.private.ga.account, 'auto');
+                ga('create', Meteor.settings.public.ga.account, 'auto');
                 ga('send', 'pageview');
             });
         }
