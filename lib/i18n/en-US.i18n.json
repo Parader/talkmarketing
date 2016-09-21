@@ -364,44 +364,41 @@
             "title": "Description du poste",
             "profile": {
                 "title": "Ton profil",
-                "l1": "Tu as une parfaite maîtrise de l’anglais (verbal et écrit) et du français.",
-                "l2": "Tu as de l’expérience en commercialisation et/ou en e-commerce.",
-                "l3": "Tu possèdes une bonne compréhension des marchés canadiens et américains.",
-                "l4": "Tu sais travailler avec les médias sociaux.",
-                "l5": "Tu maîtrises les logiciels de la suite Office (Word, Excel, PowerPoint, Outlook), ainsi que Mailchimp.",
-                "l6": "Tu as une forte capacité à formuler, élaborer et à mettre en oeuvre des stratégies fondées sur des connaissances éclairées.",
-                "l7": "Tu as l’habileté à porter une attention particulière à ce que les gens ont à dire et à utiliser ta logique et ton raisonnement pour peser le pour et le contre de solutions alternatives.",
-                "l8": "Tu possèdes une excellente connaissance des dernières technologies et tu es constamment à l’affut des nouvelles tendances du domaine.",
-                "l9": "Tu es très à l’aise dans un milieu où les activités se déroulent à un rythme rapide ou changent souvent d’orientation.",
-                "l10": "Tu es un vrai « Team player ».",
-                "l11": "Tu es autonome et débrouillard.",
-                "l12": "Tu es proactif et efficace.",
-                "l13": "Tu es vif d’esprit, instinctif, fin stratège et débordant d’idées innovantes."
+                "l1": "Tu as une parfaite maîtrise de l’anglais (oral et écrit) et du français",
+                "l2": "Tu as de l’expérience en commercialisation ou en e-commerce",
+                "l3": "Tu possèdes une bonne compréhension des marchés canadien et américain",
+                "l4": "Tu sais travailler avec les médias sociaux",
+                "l5": "Tu maîtrises les logiciels de la suite Office (Word, Excel, PowerPoint, Outlook), ainsi que Mailchimp",
+                "l6": "Tu as une forte capacité à formuler, élaborer et à mettre en oeuvre des stratégies fondées sur des connaissances éclairées",
+                "l7": "Excellentes capacités d’écoute, d’analyse et de synthèse des besoins, afin de proposer les meilleures solutions possibles",
+                "l8": "Tu possèdes une excellente connaissance des dernières technologies et tu es constamment à l’affut des nouvelles tendances du domaine",
+                "l9": "Tu t'adaptes facilement: tu es très à l’aise dans un milieu où les activités se déroulent à un rythme rapide ou changent souvent d’orientation",
+                "l10": "Tu es un vrai « team player »",
+                "l11": "Tu es allumé, instinctif, fin stratège et débordant d’idées innovantes"
             },
             "bonus": {
                 "title": "Bonus",
-                "l1": "Tu possèdes un Baccalauréat en marketing ou tu possèdes des qualifications équivalentes.",
-                "l2": "Tu as de l’expérience dans le domaine de la vente et du développement des affaires.",
-                "l3": "Tu as de l’expérience en gestion de projets.",
-                "l4": "Tu adores la poutine et/ou les sushis. (C’est une blague… ou presque)."
+                "l1": "Tu possèdes un Baccalauréat en marketing ou des qualifications équivalentes",
+                "l2": "Tu as de l’expérience dans le domaine de la vente et du développement des affaires",
+                "l3": "Tu as de l’expérience en gestion de projets",
+                "l4": "Tu adores la poutine et/ou les sushis. (C’est une blague… ou presque)"
             },
             "responsabilites": {
                 "title": "Tes tâches",
-                "l1": "Tu apporteras ton appui marketing dans le développement des affaires du président.",
-                "l2": "Tu concevras des plans marketing.",
-                "l3": "Tu présenteras des exposés aux clients.",
-                "l4": "Tu créeras des outils marketing, de communications et de ventes.",
-                "l5": "Tu rédigeras des publicités, des articles, des courriels, des offres promotionnelles, des publications destinées aux réseaux sociaux, etc.",
-                "l6": "Tu développeras des campagnes sur les médias sociaux.",
-                "l7": "Tu élaboreras des stratégies pour développer des sites web, pour accroître le trafic, fidéliser les internautes et pour augmenter les ventes en ligne.",
-                "l8": "Tu collaboreras aux actions de relations publiques.",
-                "l9": "Tu analyseras les retombées de chaque action et tu réadapteras ta stratégie en fonction des résultats et de l’évolution du marché."
+                "l1": "Tu appuieras le président dans le développement des affaires au niveau du marketing",
+                "l2": "Tu concevras des plans marketing",
+                "l3": "Tu feras des exposés aux clients (pitch)",
+                "l4": "Tu créeras des outils marketing, de communication et de vente",
+                "l5": "Tu rédigeras des publicités, des articles, des courriels, des offres promotionnelles, des publications destinées aux réseaux sociaux, etc",
+                "l6": "Tu développeras des campagnes sur les médias sociaux",
+                "l7": "Tu élaboreras des stratégies pour développer des sites web, pour accroître le trafic, fidéliser les internautes et pour augmenter les ventes en ligne",
+                "l8": "Tu collaboreras aux actions de relations publiques",
+                "l9": "Tu analyseras les retombées de chaque action et tu adapteras ta stratégie en fonction des résultats et de l’évolution du marché"
             },
             "work": {
                 "title": "Ton travail",
-                "l1": "Relevant du président, et en étroite collaboration avec la directrice des opérations, tu seras responsable de recommander, d’élaborer et d’exécuter des stratégies marketing de commercialisation et de rayonnement des produits et services de Talk Marketing et de ses entreprises clientes à l’échelle nord-américaine.",
-                "l2": "Tu seras aussi appelé à participer activement au processus de planification (définition des attentes, des objectifs et des échéances) et, par conséquent, à faciliter l’ordonnancement de la production.",
-                "l3": "Tu participeras également aux entretiens décisionnels et joueras donc un rôle essentiel dans la définition des principaux enjeux, des impératifs stratégiques et des besoins quant à l'affectation des ressources."
+                "l1": "Relevant du président et travaillant en étroite collaboration avec la directrice des opérations, tu seras responsable de recommander, élaborer et exécuter des stratégies marketing de commercialisation et de rayonnement des produits et services de Talk Marketing et de ses clients à l’échelle nord-américaine. Tu seras aussi appelé à participer activement au processus de planification.",
+                "l2": "Tu participeras à la prise de décisions. Tu joueras donc un rôle essentiel dans la définition des principaux enjeux, impératifs stratégiques, ainsi que dans l'affectation des ressources aux projets."
             }
         }
     },

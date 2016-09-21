@@ -248,8 +248,6 @@ export default class MarketingDir extends React.Component{
                             <li><T>common.directeurMarketing.jobDescMark.profile.l9</T></li>
                             <li><T>common.directeurMarketing.jobDescMark.profile.l10</T></li>
                             <li><T>common.directeurMarketing.jobDescMark.profile.l11</T></li>
-                            <li><T>common.directeurMarketing.jobDescMark.profile.l12</T></li>
-                            <li><T>common.directeurMarketing.jobDescMark.profile.l13</T></li>
                         </ul>
                         <h6><T>common.directeurMarketing.jobDescMark.bonus.title</T></h6>
                         <ul>
@@ -273,7 +271,6 @@ export default class MarketingDir extends React.Component{
                         <h6><T>common.directeurMarketing.jobDescMark.work.title</T></h6>
                         <p><T>common.directeurMarketing.jobDescMark.work.l1</T></p>
                         <p><T>common.directeurMarketing.jobDescMark.work.l2</T></p>
-                        <p><T>common.directeurMarketing.jobDescMark.work.l3</T></p>
                         <h5><T>common.motionDesigner.workAtTalk.title</T></h5>
                         <ul>
                             <li><T>common.motionDesigner.workAtTalk.l1</T></li>
