@@ -68,8 +68,7 @@ createScroll = function (){
 }
 removeScroll = function (){
     $(".mainContainer").scrollTop(0);
-    if(scrollBar)
-        scrollBar.destroy();
+    $('.mainContainer').scrollbar("destroy");
     $(window).off("scroll");
 }
 /* /SCROLLBAR */
