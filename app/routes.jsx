@@ -11,6 +11,7 @@ import Contact from './modules/contact/containers/Contact.jsx';
 import UltimateVoiceBuilder from './modules/projects/containers/UltimateVoiceBuilder.jsx';
 import MotionDesigner from './modules/jobs/containers/MotionDesigner.jsx';
 import FrontendDev from './modules/jobs/containers/FrontendDev.jsx';
+import MarketingDir from './modules/jobs/containers/MarketingDir.jsx';
 import SpontaneousApplication from './modules/jobs/containers/SpontaneousApplication.jsx';
 import Privacy from './modules/core/containers/Privacy.jsx';
 import The404 from './modules/404/containers/The404.jsx';
@@ -67,7 +68,8 @@ createScroll = function (){
 }
 removeScroll = function (){
     $(".mainContainer").scrollTop(0);
-    scrollBar.destroy();
+    if(scrollBar)
+        scrollBar.destroy();
     $(window).off("scroll");
 }
 /* /SCROLLBAR */
@@ -166,6 +168,12 @@ normalRoute.route('/jobs/:post', {
             mount(Layout, {
                 content: () => (
                     <FrontendDev />
+                )
+            });
+        }else if(postName == "directeur-marketing"){
+            mount(Layout, {
+                content: () => (
+                    <MarketingDir />
                 )
             });
         }else{

@@ -55,6 +55,12 @@ export default class Agency extends React.Component{
                 Session.set("agencyScrollAmount", agencyScrollAmount);
                 FlowRouter.go("/jobs/frontendDev");
             }});
+        }else if(job == "directeur-marketing"){
+            $(".fakeJobContainer").addClass("marketingDir");
+            TweenLite.to($(".fakeJobContainer"), 0.3, {css:{top:0}, onComplete:()=>{
+                Session.set("agencyScrollAmount", agencyScrollAmount);
+                FlowRouter.go("/jobs/directeur-marketing");
+            }});
         }else if(job == "other"){
             $(".fakeJobContainer").addClass("other");
             TweenLite.to($(".fakeJobContainer"), 0.3, {css:{top:0}, onComplete:()=>{
@@ -96,9 +102,9 @@ export default class Agency extends React.Component{
                             <div className='row fadefx'>
                                 <div className='offreDemplois col l4 s12'>
                                     <div className='offreWrapper'>
-                                        <h2 className='title'><T>common.team.jobs.jobMotionTitle1</T><br /><T>common.team.jobs.jobMotionTitle2</T></h2>
-                                        <p><T>common.team.jobs.jobMotionText</T></p>
-                                        <button className='semiShadow' onClick={()=> this.goToJob("motion designer")}><T>common.team.jobs.jobButton</T> <Arrow orientation="right" /></button>
+                                        <h2 className='title'><T>common.team.jobs.jobMarkTitle1</T><br /><T>common.team.jobs.jobMarkTitle2</T></h2>
+                                        <p><T>common.team.jobs.jobMarkText</T></p>
+                                        <button className='semiShadow' onClick={()=> this.goToJob("directeur-marketing")}><T>common.team.jobs.jobButton</T> <Arrow orientation="right" /></button>
                                     </div>
                                 </div>
                                 <div className='offreDemplois col l4 s12'>

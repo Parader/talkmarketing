@@ -600,7 +600,7 @@ svg #text .fr{opacity:0; visibility:hidden;}
                         .content.eric{width:500px;}
                         .content.amelie{width:562px;}
                         .content.ms{width:795px;}
-                        .person.karl{background-image:url(http://d27t9uefwdhmj1.cloudfront.net/1-karl.jpg); }
+                        .person.karl{background-image:url(http://d27t9uefwdhmj1.cloudfront.net/1-k.jpg); }
                         /*.person.arlette{background-image:url("images/x-ms.jpg"); }*/
                         .person.derick{background-image:url(http://d27t9uefwdhmj1.cloudfront.net/3-d.jpg); }
                         .person.pl{background-image:url(http://d27t9uefwdhmj1.cloudfront.net/4-pl.jpg); }
@@ -752,7 +752,7 @@ svg #text .fr{opacity:0; visibility:hidden;}
 }
 .agencyContainer:after{
     position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
-    content: url(http://d27t9uefwdhmj1.cloudfront.net/empty_place.jpg) url(http://d27t9uefwdhmj1.cloudfront.net/frontendDev.jpg) url(http://d27t9uefwdhmj1.cloudfront.net/motion_designer.jpg);
+    content: url(http://d27t9uefwdhmj1.cloudfront.net/empty_place.jpg) url(http://d27t9uefwdhmj1.cloudfront.net/frontendDev.jpg) url(http://d27t9uefwdhmj1.cloudfront.net/motion_designer.jpg) url(http://d27t9uefwdhmj1.cloudfront.net/directeur_marketing.jpg);
     /*content: url("/images/motion_designer.jpg") url("/images/frontendDev.jpg") url("/images/empty_place.jpg") url("/images/cover-p1.jpg") url("images/1-karl.jpg") url("images/3-d.jpg") url("images/5-my.jpg") url("images/4-pl.jpg") url("images/6-eric.jpg") url("images/7-ame.jpg") url("images/2-ms.jpg");*/
 }
 
@@ -958,6 +958,7 @@ svg #text .fr{opacity:0; visibility:hidden;}
 }
 .fakeJobContainer.motionDesigner{background:url(http://d27t9uefwdhmj1.cloudfront.net/motion_designer.jpg) no-repeat 50% 50%; background-size:cover;}
 .fakeJobContainer.frontendDev{background:url(http://d27t9uefwdhmj1.cloudfront.net/frontendDev.jpg) no-repeat 50% 50%; background-size:cover;}
+.fakeJobContainer.marketingDir{background:url(http://d27t9uefwdhmj1.cloudfront.net/directeur_marketing.jpg) no-repeat 50% 50%; background-size:cover;}
 .fakeJobContainer.other{background:url(http://d27t9uefwdhmj1.cloudfront.net/empty_place.jpg) no-repeat 50% 50%; background-size:cover;}
 
 /*  SINGLE JOBS */
@@ -1072,6 +1073,7 @@ svg #text .fr{opacity:0; visibility:hidden;}
                 span.bg{position:absolute; top:196px; left:0; right:0; bottom:0; background-size:cover; opacity:0; visibility:hidden; width:100vw; height:100vh; display:none;}
                 span.filter{position:absolute; top:196px; left:0; right:0; bottom:0; opacity:0; visibility:hidden; width:100vw; height:100vh; display:none;}
                 span.frontendDev{background:url(http://d27t9uefwdhmj1.cloudfront.net/frontendDev.jpg) no-repeat 50% 0%; background-size:cover;}
+                span.marketingDir{background:url(http://d27t9uefwdhmj1.cloudfront.net/directeur_marketing.jpg) no-repeat 50% 0%; background-size:cover;}
                 span.motionDesigner{background:url(http://d27t9uefwdhmj1.cloudfront.net/motion_designer.jpg) no-repeat 50% 0%; background-size:cover;}
                 span.spontaneous{background:url(http://d27t9uefwdhmj1.cloudfront.net/empty_place.jpg) no-repeat 50% 0%; background-size:cover;}
                 &:hover{
@@ -1107,6 +1109,9 @@ svg #text .fr{opacity:0; visibility:hidden;}
 .singleJobContainer.frontendDev{
     .heading{background:url(http://d27t9uefwdhmj1.cloudfront.net/frontendDev.jpg) no-repeat 50% 0%; background-size:cover;}
 }
+.singleJobContainer.marketingDir{
+    .heading{background:url(http://d27t9uefwdhmj1.cloudfront.net/directeur_marketing.jpg) no-repeat 50% 0%; background-size:cover;}
+}
 .singleJobContainer.spontaneous{
     .heading{background:url(http://d27t9uefwdhmj1.cloudfront.net/empty_place.jpg) no-repeat 50% 0%; background-size:cover;}
 }
@@ -1119,7 +1124,7 @@ svg #text .fr{opacity:0; visibility:hidden;}
         position:absolute; top:88px; height:450px; width:900px; left:0; right:0; bottom:0; margin:auto;
         .text{
             text-align:center; max-width:420px; display:inline-block; float:left; margin-left: 300px;
-            h1{margin: 0; line-height: 90px;}
+            h1{margin: 0; line-height: 110px; font-size: 90px;}
             h2{letter-spacing: 2px; line-height: 28px;}
             p{font-size:responsive 18px 22px; font-range:480px 900px; font-weight:300; line-height:44px;}
             button{color: #40292E;
@@ -1305,6 +1310,7 @@ footer, .footerContainer{
 
 @media screen and (max-width: 1024px) {/*           ------------------------------1024--------------------------------------                */
     /* AGENCY */
+    .agencyContainer .team .teamContainer .sliderContainer > .swiper-wrapper > .swiper-slide .content h2 span.ln{display:none;}
     .agencyContainer .ambiance .text p{width:100%; padding:0 22px; }
     .agencyContainer .moments .gridContainer .grid .planet .txtCentered p{font-size:24px;}
     .agencyContainer .moments .gridContainer .grid .planet .txtCentered .overTextLine {width: 230px;}
