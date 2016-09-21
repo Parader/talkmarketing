@@ -69,25 +69,37 @@ export default class Expertise extends React.Component{
         /* /META DATA */
         return(
             <div className='wrapper' ref='wrapper'>
-                <div className='backgroundCover'><div className='similiSide left'></div><div className='similiSide right'></div><div className='filter'></div></div>
+                {/*<div className='backgroundCover'>
+                    <div className='similiSide left'></div>
+                    <div className='similiSide right'></div>
+                    <div className='filter'></div>
+                </div>*/}
                 <div className='expertiseContainer' ref='expContainer'>
-                    <div className='recentProject section' ref="recentProject">
-                        <ReactCSSTransitionGroup
-                            transitionName='contentLoad'//class
-                            transitionAppearTimeout={600}
-                            transitionEnterTimeout={600}//time to enter
-                            transitionLeaveTimeout={400}//Time to leave
-                            transitionAppear={true}
-                            >
-                            <div className='content'>
-                                <h1 ref='word'><T>common.expertise.project.Tag</T></h1>
-                                <p className='hook'><T>common.expertise.project.Title</T></p>
-                            </div>
+                    <div className='backgroundCover'>
+                        <div className='similiSide left'></div>
+                        <div className='similiSide right'></div>
+                        <div className='filter'></div>
+                    </div>
+                    <div className='recentProjects section'>
+                        <div className='recentProject' ref="recentProject">
 
-                            <div className='voir' ref='voir'>
-                                <button className='btnShadow' onClick={this.openProject}><T>common.expertise.project.Button</T> <Arrow orientation="right" /></button>
-                            </div>
-                        </ReactCSSTransitionGroup>
+                            <ReactCSSTransitionGroup
+                                transitionName='contentLoad'//class
+                                transitionAppearTimeout={600}
+                                transitionEnterTimeout={600}//time to enter
+                                transitionLeaveTimeout={400}//Time to leave
+                                transitionAppear={true}
+                                >
+                                <div className='content'>
+                                    <h1 ref='word'><T>common.expertise.project.Tag</T></h1>
+                                    <p className='hook'><T>common.expertise.project.Title</T></p>
+                                </div>
+
+                                <div className='voir' ref='voir'>
+                                    <button className='btnShadow' onClick={this.openProject}><T>common.expertise.project.Button</T> <Arrow orientation="right" /></button>
+                                </div>
+                            </ReactCSSTransitionGroup>
+                        </div>
                     </div>
                     <div className='services section'>
                         <div className='title'>
