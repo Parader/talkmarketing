@@ -257,8 +257,9 @@ header{height:88px;}
 }
 
 /* HOME */
+.homeWrapp{padding:0 3.4375%;}
 .homeContainer{
-    margin-top:88px; padding:0 3.4375% 0; overflow:hidden;
+    margin-top:88px; /*padding:0 3.4375% 0;*/ overflow:hidden;
     .landingWrapper{
         width:100%; position:relative; z-index:2; color:#fff; height:calc(100vh - 88px); &:hover{cursor:grab;}
         .landingContainer{

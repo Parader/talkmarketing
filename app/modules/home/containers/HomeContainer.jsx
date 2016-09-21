@@ -272,7 +272,7 @@ export default class HomeContainer extends React.Component {
         DocHead.setTitle('Talk - '+i18n.__('common.page.home'));
         /* /META DATA */
         return(
-            <div className="wrapper">
+            <div className="wrapper homeWrapp">
                 <div className="animNavContainer hidden">
                     <Timeline leave={this.leaveAnimation} ref='timeline' />
                 </div>

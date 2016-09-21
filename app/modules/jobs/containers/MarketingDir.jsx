@@ -78,7 +78,12 @@ export default class MarketingDir extends React.Component{
                 const changeOfferTl = new TimelineMax({onStart:()=>{//set maxScroll
                     this.changeOfferActive = true;
                     Session.set("changeOfferActive", true);//new
-                    Session.set("maxScroll", scrollBar[0].scrollTop + bg.offset().top);
+                    if(scrollBar[0]){
+                        Session.set("maxScroll", scrollBar[0].scrollTop + bg.offset().top);
+                    }else{
+                        Session.set("maxScroll", $(".mainContainer").scrollTop() + bg.offset().top);
+                    }
+
                     this.maxScroll = -this.scrollAmount + bg.offset().top;
                 }});
 
