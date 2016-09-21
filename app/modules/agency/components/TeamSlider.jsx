@@ -134,7 +134,7 @@ export default class TeamSlider extends React.Component {
                             </div>
                             <div className='person karl'></div>
                         </div>
-                        <div className="swiper-slide">
+                        {/*<div className="swiper-slide">
                             <div className='content ms noselect'>
                                 <p className='intro'><T>common.team.teamSlider.taglineF</T></p>
                                 <h2><span className='fn'>Marie-Soleil</span> <span className='ln'>LeHouillier</span></h2>
@@ -165,7 +165,7 @@ export default class TeamSlider extends React.Component {
                                 <button className='reroll'><div className='overReroll' onClick={this.releaseLastName}></div><T>common.team.teamSlider.boutonTitle</T></button>
                             </div>
                             <div className='person msoleil'></div>
-                        </div>
+                        </div>*/}
                         {/*<div className="swiper-slide">
                             <div className='content arlette'>
                                 <p className='intro'>Elle, c'est</p>

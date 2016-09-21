@@ -37,9 +37,9 @@ export default class Landing extends React.Component {
 
         if(this.state.allowVideo){
             videoContainer = (this.state.isMobile) ? <div></div> : <video autoPlay loop id='bgVid' poster='/images/preload_video.jpg'>
-                    <source src="http://d27t9uefwdhmj1.cloudfront.net/vidhome.mp4" type="video/mp4" />
-                    <source src="http://d27t9uefwdhmj1.cloudfront.net/vidhome.ogv" type="video/ogv" />
-                    <source src="http://d27t9uefwdhmj1.cloudfront.net/vidhome.webm" type="video/webm" />
+                    <source src="http://d27t9uefwdhmj1.cloudfront.net/vidhome-v2.mp4" type="video/mp4" />
+                    <source src="http://d27t9uefwdhmj1.cloudfront.net/vidhome-v2.ogv" type="video/ogv" />
+                    <source src="http://d27t9uefwdhmj1.cloudfront.net/vidhome-v2.webm" type="video/webm" />
                     Your browser does not support the video tag.
                 </video>;
         }
