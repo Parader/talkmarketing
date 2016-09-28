@@ -13,7 +13,7 @@ export default class Footer extends React.Component{
             <footer className='footerContainer fadefx'>
                 <div className='left'>
                     <div className='socialContainer'>
-                        <a href='https://facebook.com/talkmkt/' target='_blank'><div className='social facebook'></div></a>
+                        <a href='https://facebook.com/talkmarketingagency/' target='_blank'><div className='social facebook'></div></a>
                         <a href='https://www.instagram.com/talkmarketing/' target='_blank'><div className='social instagram'></div></a>
                     </div>
                     <div className='copyright'>
