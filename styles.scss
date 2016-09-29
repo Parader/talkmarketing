@@ -1507,6 +1507,7 @@ footer, .footerContainer{
     .homeContainer .landingWrapper .landingContainer .content .scrollDown{bottom:11px;}
 
     /* AGENCY */
+    .agencyContainer{padding:88px 0 0;}
     .agencyContainer .ambiance .text p{padding:0 22px;}
     .agencyContainer .ambiance .image{padding:0px 22px;}
     .agencyContainer .moments .gridContainer{padding:0 22px;}
@@ -1526,6 +1527,8 @@ footer, .footerContainer{
     .singleJobContainer .outlineContainer{display:none;}
 
     /* EXPERTISE */
+    .expertiseContainer{padding:0;}
+    .expertiseContainer .backgroundCover .similiSide.left, .expertiseContainer .backgroundCover .similiSide.right{display:none;}
     .expertiseContainer .recentProject .content .hook{max-width: 330px;}
     .expertiseContainer .dashboard .dashboardContainer .sliderContainer .swiper-wrapper .swiper-slide p{max-width:364px; margin:auto;}
     .expertiseContainer .dashboard .dashboardContainer .sliderContainer .swiper-wrapper .swiper-slide .browserView{width:50%;}
