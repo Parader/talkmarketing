@@ -12,6 +12,7 @@ import UltimateVoiceBuilder from './modules/projects/containers/UltimateVoiceBui
 import MotionDesigner from './modules/jobs/containers/MotionDesigner.jsx';
 import FrontendDev from './modules/jobs/containers/FrontendDev.jsx';
 import MarketingDir from './modules/jobs/containers/MarketingDir.jsx';
+import SocialMedia from './modules/jobs/containers/SocialMedia.jsx';
 import SpontaneousApplication from './modules/jobs/containers/SpontaneousApplication.jsx';
 import Privacy from './modules/core/containers/Privacy.jsx';
 import The404 from './modules/404/containers/The404.jsx';
@@ -173,6 +174,12 @@ normalRoute.route('/jobs/:post', {
             mount(Layout, {
                 content: () => (
                     <MarketingDir />
+                )
+            });
+        }else if(postName == "gestionnaire-medias-sociaux"){
+            mount(Layout, {
+                content: () => (
+                    <SocialMedia />
                 )
             });
         }else{

@@ -8,7 +8,7 @@ import JobNavigation from '../components/JobNavigation.jsx';
 
 const T = i18n.createComponent();
 
-export default class MarketingDir extends React.Component{
+export default class SocialMedia extends React.Component{
     constructor() {
         super();
         this.changeOffer = this.changeOffer.bind(this);
@@ -160,7 +160,7 @@ export default class MarketingDir extends React.Component{
 
     render() {
         /* META DATA */
-        DocHead.setTitle('Talk - Directeur Marketing');
+        DocHead.setTitle('Talk - Gestionnaire de médias sociaux');
         /* /META DATA */
         let formError = this.state.postFormError == "empty" ? <p className='error'><T>common.error.error</T></p> : <div></div>;
         if(formError == <div></div>){
@@ -171,7 +171,7 @@ export default class MarketingDir extends React.Component{
 
         const loading = this.state.loading ? <div className='loading'></div> : <div></div>;
         return(
-            <div className='singleJobContainer marketingDir'>
+            <div className='singleJobContainer socialMedia'>
                 <div className='heading'>
                     <div className='close' onClick={this.close}><T>common.motionDesigner.buttonClose</T> <img src="/images/closeX.svg" /></div>
                     <div className='filter'></div>
@@ -186,7 +186,7 @@ export default class MarketingDir extends React.Component{
                         >
                         <div className='titleLine'></div>
                         <h1><T>common.motionDesigner.tag</T></h1>
-                        <p className='hook'><T>common.team.jobs.jobMarkTitle</T></p>
+                        <p className='hook'><T>common.team.jobs.jobSocialTitle</T></p>
                     </ReactCSSTransitionGroup>
                     <div className='lineContainer'>
 
@@ -211,71 +211,71 @@ export default class MarketingDir extends React.Component{
                     <div className='intro'>
                         <div className='info'>
                             <p className='title'><T>common.motionDesigner.intro.t1</T></p>
-                            <p className='value'><T>common.directeurMarketing.intro.l1</T></p>
+                            <p className='value'><T>common.socialMedia.intro.l1</T></p>
                         </div>
                         <div className='info'>
                             <p className='title'><T>common.motionDesigner.intro.t5</T></p>
-                            <p className='value'><T>common.directeurMarketing.intro.l5</T></p>
+                            <p className='value'><T>common.socialMedia.intro.l5</T></p>
                         </div>
                         <div className='info'>
                             <p className='title'><T>common.motionDesigner.intro.t4</T></p>
-                            <p className='value'><T>common.directeurMarketing.intro.l4</T></p>
+                            <p className='value'><T>common.socialMedia.intro.l4</T></p>
                         </div>
                         <div className='info'>
                             <p className='title'><T>common.motionDesigner.intro.t6</T></p>
-                            <p className='value'><T>common.directeurMarketing.intro.l6</T></p>
+                            <p className='value'><T>common.socialMedia.intro.l6</T></p>
                         </div>
                         <div className='info'>
                             <p className='title'><T>common.motionDesigner.intro.t3</T></p>
-                            <p className='value'><T>common.directeurMarketing.intro.l3</T></p>
+                            <p className='value'><T>common.socialMedia.intro.l3</T></p>
                         </div>
                         <div className='info'>
                             <p className='title'><T>common.motionDesigner.intro.t7</T></p>
-                            <p className='value'><T>common.directeurMarketing.intro.l7</T></p>
+                            <p className='value'><T>common.socialMedia.intro.l7</T></p>
                         </div>
                         <div className='info'>
                             <p className='title'><T>common.motionDesigner.intro.t2</T></p>
-                            <p className='value'><T>common.directeurMarketing.intro.l2</T></p>
+                            <p className='value'><T>common.socialMedia.intro.l2</T></p>
                         </div>
                     </div>
                     <div className='description'>
                         <h5><T>common.motionDesigner.jobDescMotion.title</T></h5>
-                        <h6><T>common.directeurMarketing.jobDescMark.profile.title</T></h6>
+                        <h6><T>common.socialMedia.jobDescSocial.profile.title</T></h6>
                         <ul>
-                            <li><T>common.directeurMarketing.jobDescMark.profile.l1</T></li>
-                            <li><T>common.directeurMarketing.jobDescMark.profile.l2</T></li>
-                            <li><T>common.directeurMarketing.jobDescMark.profile.l3</T></li>
-                            <li><T>common.directeurMarketing.jobDescMark.profile.l4</T></li>
-                            <li><T>common.directeurMarketing.jobDescMark.profile.l5</T></li>
-                            <li><T>common.directeurMarketing.jobDescMark.profile.l6</T></li>
-                            <li><T>common.directeurMarketing.jobDescMark.profile.l7</T></li>
-                            <li><T>common.directeurMarketing.jobDescMark.profile.l8</T></li>
-                            <li><T>common.directeurMarketing.jobDescMark.profile.l9</T></li>
-                            <li><T>common.directeurMarketing.jobDescMark.profile.l10</T></li>
-                            <li><T>common.directeurMarketing.jobDescMark.profile.l11</T></li>
+                            <li><T>common.socialMedia.jobDescSocial.profile.l1</T></li>
+                            <li><T>common.socialMedia.jobDescSocial.profile.l2</T></li>
+                            <li><T>common.socialMedia.jobDescSocial.profile.l3</T></li>
+                            <li><T>common.socialMedia.jobDescSocial.profile.l4</T></li>
+                            <li><T>common.socialMedia.jobDescSocial.profile.l5</T></li>
+                            <li><T>common.socialMedia.jobDescSocial.profile.l6</T></li>
+                            <li><T>common.socialMedia.jobDescSocial.profile.l7</T></li>
+                            <li><T>common.socialMedia.jobDescSocial.profile.l8</T></li>
+                            <li><T>common.socialMedia.jobDescSocial.profile.l9</T></li>
+                            <li><T>common.socialMedia.jobDescSocial.profile.l10</T></li>
+                            <li><T>common.socialMedia.jobDescSocial.profile.l11</T></li>
                         </ul>
-                        <h6><T>common.directeurMarketing.jobDescMark.bonus.title</T></h6>
+                        <h6><T>common.socialMedia.jobDescSocial.bonus.title</T></h6>
                         <ul>
-                            <li><T>common.directeurMarketing.jobDescMark.bonus.l1</T></li>
-                            <li><T>common.directeurMarketing.jobDescMark.bonus.l2</T></li>
-                            <li><T>common.directeurMarketing.jobDescMark.bonus.l3</T></li>
-                            <li><T>common.directeurMarketing.jobDescMark.bonus.l4</T></li>
+                            <li><T>common.socialMedia.jobDescSocial.bonus.l1</T></li>
+                            <li><T>common.socialMedia.jobDescSocial.bonus.l2</T></li>
+                            <li><T>common.socialMedia.jobDescSocial.bonus.l3</T></li>
+                            <li><T>common.socialMedia.jobDescSocial.bonus.l4</T></li>
                         </ul>
-                        <h6><T>common.directeurMarketing.jobDescMark.responsabilites.title</T></h6>
+                        <h6><T>common.socialMedia.jobDescSocial.responsabilites.title</T></h6>
                         <ul>
-                            <li><T>common.directeurMarketing.jobDescMark.responsabilites.l1</T></li>
-                            <li><T>common.directeurMarketing.jobDescMark.responsabilites.l2</T></li>
-                            <li><T>common.directeurMarketing.jobDescMark.responsabilites.l3</T></li>
-                            <li><T>common.directeurMarketing.jobDescMark.responsabilites.l4</T></li>
-                            <li><T>common.directeurMarketing.jobDescMark.responsabilites.l5</T></li>
-                            <li><T>common.directeurMarketing.jobDescMark.responsabilites.l6</T></li>
-                            <li><T>common.directeurMarketing.jobDescMark.responsabilites.l7</T></li>
-                            <li><T>common.directeurMarketing.jobDescMark.responsabilites.l8</T></li>
-                            <li><T>common.directeurMarketing.jobDescMark.responsabilites.l9</T></li>
+                            <li><T>common.socialMedia.jobDescSocial.responsabilites.l1</T></li>
+                            <li><T>common.socialMedia.jobDescSocial.responsabilites.l2</T></li>
+                            <li><T>common.socialMedia.jobDescSocial.responsabilites.l3</T></li>
+                            <li><T>common.socialMedia.jobDescSocial.responsabilites.l4</T></li>
+                            <li><T>common.socialMedia.jobDescSocial.responsabilites.l5</T></li>
+                            <li><T>common.socialMedia.jobDescSocial.responsabilites.l6</T></li>
+                            <li><T>common.socialMedia.jobDescSocial.responsabilites.l7</T></li>
+                            <li><T>common.socialMedia.jobDescSocial.responsabilites.l8</T></li>
+                            <li><T>common.socialMedia.jobDescSocial.responsabilites.l9</T></li>
                         </ul>
-                        <h6><T>common.directeurMarketing.jobDescMark.work.title</T></h6>
-                        <p><T>common.directeurMarketing.jobDescMark.work.l1</T></p>
-                        <p><T>common.directeurMarketing.jobDescMark.work.l2</T></p>
+                        <h6><T>common.socialMedia.jobDescSocial.work.title</T></h6>
+                        <p><T>common.socialMedia.jobDescSocial.work.l1</T></p>
+                        <p><T>common.socialMedia.jobDescSocial.work.l2</T></p>
                         <h5><T>common.motionDesigner.workAtTalk.title</T></h5>
                         <ul>
                             <li><T>common.motionDesigner.workAtTalk.l1</T></li>
@@ -294,7 +294,7 @@ export default class MarketingDir extends React.Component{
 
                 <div className='postForm' ref='postForm'>
                     <div className='postWrapper' ref='postContent'>
-                        <span className='formTitle'><T>common.team.jobs.jobMarkTitle</T></span>
+                        <span className='formTitle'><T>common.team.jobs.jobSocialTitle</T></span>
                         {formError}
                         <form id='postForm'>
                             <div className='row'>
@@ -327,7 +327,7 @@ export default class MarketingDir extends React.Component{
                     </div>
                 </div>
 
-                <JobNavigation ref='jobNav' changeOffer={this.changeOffer} current='directeurMarketing' />
+                <JobNavigation ref='jobNav' changeOffer={this.changeOffer} current='socialMedia' />
 
                 <Footer goUp={this.goUp} close={this.close} />
             </div>

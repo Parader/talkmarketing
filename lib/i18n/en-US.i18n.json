@@ -203,7 +203,11 @@
             "jobMarkTitle1":"Directeur Marketing proactif",
             "jobMarkTitle2": "et efficace",
             "jobMarkText": "Tu seras responsable de recommander, d’élaborer et d’exécuter des stratégies marketing de commercialisation et de rayonnement des produits et services.",
-            "spontaneous":"Spontaneous application"
+            "spontaneous":"Spontaneous application",
+            "jobSocialTitle":"Gestionnaire de médias sociaux",
+            "jobSocialTitle1":"Gestionnaire de médias sociaux",
+            "jobSocialTitle2": "vif et curieux",
+            "jobSocialText": "Tu seras appelé à gérer les communications et les interactions avec les communautés virtuelles, ainsi que l’engagement de l’audience."
         }
     },
     "jobs":{
@@ -273,10 +277,9 @@
             "l1": "The possibility to work on different client projects, each with their own various features and challenges",
             "l2": "The participation in the creative processes. The brainstorms include all team members who wish to participate!",
             "l3": "The satisfaction from participating in strengthening community resources and being socially engaged.",
-            "l4": "The welcoming environment",
-            "l5": "The casual environment",
-            "l6": "The open and bright workspace. We are located on St-Joseph Est, close to public transportation, restaurants and shops.",
-            "l7": "The chance to be part of a passionate team, that’s young at heart, people-centered and bubbling with creativity."
+            "l4": "The welcoming and casual environment",
+            "l5": "The open and bright workspace. We are located on St-Joseph Est, close to public transportation, restaurants and shops.",
+            "l6": "The chance to be part of a passionate team, that’s young at heart, people-centered and bubbling with creativity."
         },
         "cta": {
             "title": "So, are you on board?",
@@ -399,6 +402,62 @@
                 "title": "Ton travail",
                 "l1": "Relevant du président et travaillant en étroite collaboration avec la directrice des opérations, tu seras responsable de recommander, élaborer et exécuter des stratégies marketing de commercialisation et de rayonnement des produits et services de Talk Marketing et de ses clients à l’échelle nord-américaine. Tu seras aussi appelé à participer activement au processus de planification.",
                 "l2": "Tu participeras à la prise de décisions. Tu joueras donc un rôle essentiel dans la définition des principaux enjeux, impératifs stratégiques, ainsi que dans l'affectation des ressources aux projets."
+            }
+        }
+    },
+    "socialMedia":{
+        "title":"Gestionnaire de médias sociaux",
+        "intro": {
+            "l1": "Temps plein",
+            "l2": "Québec",
+            "l3": "Marketing, médias sociaux et contenus web",
+            "l4": "2 à 3 années d’expérience",
+            "l5": "Collégial ou équivalent",
+            "l6": "Ouvert",
+            "l7": "À discuter, selon l’expérience"
+        },
+        "jobDescSocial": {
+            "title": "Description du poste",
+            "profile": {
+                "title": "Ton profil",
+                "l1": "Tu as une parfaite maîtrise de l’anglais (oral et écrit) et du français",
+                "l2": "Tu sais rester à l’affût des tendances web et des réseaux sociaux et repérer de nouveaux usages",
+                "l3": "Tu possèdes une connaissance pointue des différentes plateformes telles que Facebook, LinkedIn, Twitter, Instagram, Youtube, Google+, blogue, etc.",
+                "l4": "Tu as une grande facilité à rédiger dans un français impeccable et à créer des formules accrocheuses",
+                "l5": "Tu sais gérer ton temps de façon optimale",
+                "l6": "Tu es très à l’aise dans un milieu où les activités se déroulent à un rythme rapide ou changent souvent d’orientation",
+                "l7": "Tu es un vrai “team player”",
+                "l8": "Tu es débrouillard et tu t’adaptes rapidement à toutes situations",
+                "l9": "Tu es polyvalent, minutieux et structuré",
+                "l10": "Tu es vif d’esprit, instinctif, fin stratège et débordant d’idées innovantes"
+            },
+            "bonus": {
+                "title": "Bonus",
+                "l1": "Tu possèdes une formation collégiale en gestion de communautés, ou un diplôme universitaire en marketing, communications, journalisme ou publicité",
+                "l2": "Tu as de l’expérience avec les outils d’analyse et de publicité en ligne",
+                "l3": "Tu sais utiliser des logiciels de design tels que Photoshop et Illustrator",
+                "l4": "Tu as de l’expérience pratique avec les campagnes de publicité sur les médias sociaux et tu connais bien les spécificités de chacun des réseaux",
+                "l5": "Tu as une bonne connaissance de l’optimisation pour les moteurs de recherche (SEO) ",
+                "l6": "Tu as déjà travaillé avec un gestionnaire de contenu (CMS)",
+                "l7": "Tu as des connaissances en HTML, CSS et autres langages web",
+                "l8": "Tu adores la poutine et/ou les sushis (C’est une blague… ou presque)"
+            },
+            "responsabilites": {
+                "title": "Tes tâches",
+                "l1": "Tu effectueras une veille quotidienne afin de traiter les demandes du public et de réagir rapidement lorsque survient un événement extérieur susceptible d’affecter la réputation de l’entreprise",
+                "l2": "Tu créeras et partageras des contenus pour le web et les réseaux sociaux tels que des articles, des offres promotionnelles, des actualités, etc.",
+                "l3": "Tu participeras à l’élaboration des calendriers de contenu",
+                "l4": "Tu établiras le contact avec des influenceurs de tous les types (early adopters, créateurs de tendances, experts, blogueurs établis, célébrités, journalistes, brand advocates)",
+                "l5": "Tu assureras la gestion et l’animation au quotidien des comptes de réseaux sociaux des clients de l’entreprise ",
+                "l6": "Tu t’occuperas de la modération des discussions sur les blogues et les médias sociaux ",
+                "l7": "Tu assureras la formation des différents responsables et contributeurs aux médias sociaux",
+                "l8": "Tu établiras des protocoles internes de réaction aux commentaires (positifs et négatifs) du public, de diffusion et de surveillance dans les médias sociaux",
+                "l9": "Tu analyseras l’efficacité des campagnes ainsi que les retombées de chaque action et tu proposeras des axes d'amélioration"
+            },
+            "work": {
+                "title": "Ton travail",
+                "l1": "Sous la supervision du directeur marketing, et en étroite collaboration avec la directrice des opérations, tu auras à proposer des stratégies pour les médias sociaux à chaque niveau de l’organisation (ressources humaines, communication, marketing, innovation, etc.). Tu seras appelé à collaborer au processus de planification des stratégies de commercialisation pour accroître le trafic, fidéliser les internautes et augmenter les ventes, puis tu t’occuperas de leur déploiement sur les réseaux sociaux et le web.",
+                "l2": "Tu seras appelé à gérer les communications et les interactions avec les communautés virtuelles, ainsi que l’engagement de l’audience. Tu interviendras sur la réputation en ligne et la visibilité des différentes marques. Les contenus à publier, la modération et la veille seront sous ta responsabilité. Tu auras à jongler avec plusieurs comptes appartenant à différents clients; un excellent sens de l’organisation pour gérer les multiples tâches avec efficacité est primordial."
             }
         }
     },

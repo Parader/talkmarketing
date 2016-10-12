@@ -215,13 +215,12 @@ export default class SpontaneousApplication extends React.Component{
                         </ul>
                         <h6>Tu adoreras travailler chez nous pour :</h6>
                         <ul>
-                            <li>La possibilité de travailler sur des projets de clients différents, présentant des réalités et des défis communicationnels différents.</li>
+                            <li>Une aire de travail ouverte et pleine de lumière, située dans le Nouvo St-Roch, à proximité des transports en commun, restaurants et boutiques</li>
+                            <li>L’environnement décontracté incluant cuisine et salon, privilégiant l’échange dans une ambiance chaleureuse, presque familiale</li>
+                            <li>Plusieurs défis intéressants à relever au cours des prochaines années</li>
+                            <li>La possibilité de travailler sur des projets d’envergure</li>
                             <li>La participation aux processus créatifs. Les brainstorms se font avec tous les membres de l’équipe qui désirent participer!</li>
-                            <li>La satisfaction de participer au renforcement de ressources communautaires et socialement engagées.</li>
-                            <li>L’ambiance chaleureuse, presque familiale.</li>
-                            <li>L’environnement décontracté.</li>
-                            <li>L’espace de travail ouvert et le local très lumineux, situé sur St-Joseph Est à proximité des transports en commun, de restaurants et de boutiques.</li>
-                            <li>La chance de faire partie d’une équipe passionnée, jeune de cœur, axée sur l’humain et bouillonnante de créativité.</li>
+                            <li>La chance de faire partie d’une équipe passionnée et pétillante, axée sur l’humain et bouillonnante de créativité.</li>
                         </ul>
                         <div className='cta'>
                             <p>Alors t'embarques?</p>

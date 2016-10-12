@@ -61,6 +61,8 @@ export default class Contact extends React.Component{
             FlowRouter.go("/jobs/frontendDev");
         }else if(page == "marketing"){
             FlowRouter.go("/jobs/directeur-marketing");
+        }else if(page == "socialMedia"){
+            FlowRouter.go("/jobs/gestionnaire-medias-sociaux");
         }else if(page == "spontaneous"){
             FlowRouter.go("/jobs/spontaneous")
         }
@@ -140,6 +142,7 @@ export default class Contact extends React.Component{
                                     <button className='btnShadow poste hoverClick' onClick={()=>{this.goToJobs("motion")}}><T>common.contact.career.j1</T> <Arrow orientation="right" /></button>
                                     <button className='btnShadow poste hoverClick' onClick={()=>{this.goToJobs("frontend")}}><T>common.contact.career.j2</T> <Arrow orientation="right" /></button>
                                     <button className='btnShadow poste hoverClick' onClick={()=>{this.goToJobs("marketing")}}><T>common.directeurMarketing.title</T> <Arrow orientation="right" /></button>
+                                    <button className='btnShadow poste hoverClick' onClick={()=>{this.goToJobs("socialMedia")}}><T>common.socialMedia.title</T> <Arrow orientation="right" /></button>
                                     <p className='text'><T>common.contact.career.text</T></p>
                                     <button className='semiShadow hoverClick' onClick={()=>{this.goToJobs("spontaneous")}}><T>common.contact.career.button</T> <Arrow orientation="right" /></button>
                                 </div>

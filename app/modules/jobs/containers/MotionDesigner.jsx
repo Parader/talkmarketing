@@ -277,7 +277,6 @@ export default class MotionDesigner extends React.Component{
                             <li><T>common.motionDesigner.workAtTalk.l4</T></li>
                             <li><T>common.motionDesigner.workAtTalk.l5</T></li>
                             <li><T>common.motionDesigner.workAtTalk.l6</T></li>
-                            <li><T>common.motionDesigner.workAtTalk.l7</T></li>
                         </ul>
                         <div className='cta'>
                             <p><T>common.motionDesigner.cta.title</T></p>
