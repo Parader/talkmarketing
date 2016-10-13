@@ -1,7 +1,9 @@
 # talkmarketing 
-/./Your App's Moto.
+Want to take your ideas to the next level? We are Talk Marketing. We’re a bunch of marketing junkies. We’re committed to bringing your ideas to the world stage. Creative and innovative, our team is ready to help you every step of the way.
 
-<img src="/./Your Logo URL" height="128" width="128" >
+We take pride in our work, our achievements and our commitment to our clients. Our clients are family, and that’s what makes us stand out. Our success is yours.
+
+<img src="https://s3.amazonaws.com/talk-public/logo.png" >
 
 #Screens
 <img src="Your ScreenShot1 URL" align="right" height="400" width="600" >
@@ -15,15 +17,12 @@
 <li>/./Feature 2</li>
 </ul>
 
-#APIs
-/./ if used any can put it in list or directly
-
 
 ##License
 
 ```
 talkmarketing
-Copyright (c) /./Put details
+Copyright (c) 2016
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
