@@ -10,13 +10,15 @@
     "footer": {
         "copyright": "© 2015 Agence TALK Marketing. Touts&nbsp;droits&nbsp;réservés.",
         "cta": "Dites bonjour",
-        "privacy": "Confidentialité"
+        "privacy": "Confidentialité",
+        "ctaText":"Travaillons ensemble."
     },
     "home": {
         "pageTitle":"Accueil",
-        "tagline": "Agence marketing et web",
-        "title": "Donnez corps à vos idées.",
-        "cta": "Voyez comment"
+        "tagline": "Une agence marketing et&nbsp;web&nbsp;qui se démarque.",
+        "title": "On a pensé à une phrase pour vous le prouver, mais&nbsp;une&nbsp;animation c'est pas mal plus cool.",
+        "cta": "Voyez comment",
+        "animation":"Regarder l'animation"
     },
     "animation": {
         "frame1": "Ça, c'est vous.",
@@ -82,6 +84,8 @@
     },
     "team": {
         "teamSlider": {
+            "introTitle":"L'équipe",
+            "intro":"Les membres de la famille",
             "taglineF": "Elle c'est",
             "taglineM": "Lui c'est",
             "boutonTitle": "Mais encore?",
@@ -125,7 +129,7 @@
                 "t9": "L’artiste cartésien"
             },
             "myTitles": {
-                "t1": "Présidente",
+                "t1": "Directrice",
                 "t2": "Artiste cachée",
                 "t3": "La rassembleuse",
                 "t4": "La chef d’orchestre",
@@ -155,7 +159,7 @@
                 "t9": "Dompteuse d’écureuils"
             },
             "kTitles": {
-                "t1": "Président de TALK Entreprises",
+                "t1": "Président",
                 "t2": "Membre du SETI",
                 "t3": "Le papa de TALK",
                 "t4": "Le stratège",
@@ -169,7 +173,7 @@
         "culture": {
             "tag": "Culture",
             "title": "Nous sommes&nbsp;TALK",
-            "text": "Notre équipe, c'est autant une famille qu'un savant mélange de talents hétéroclites. Accros de marketing créatif et surplombant la masse, nous sommes fiers de qui nous sommes et de ce que nous livrons. Nous sommes dévoués à nos clients avec qui nous formons une alliance de réussite et des liens humains précieux. C'est ce que nous sommes, ce qui nous distingue."
+            "text": "Notre équipe, c'est une famille composée de créatifs aux talents variés en web et marketing. Fiers de ce qu'on livre, nos clients apprécient notre dévouement à former une alliance de réussite et des liens humains précieux."
         },
         "photos": {
             "tag": "Photos",
@@ -477,30 +481,14 @@
                 "i1": "Stratégie d'affaires",
                 "i2": "Plan marketing",
                 "i3": "Plan de communication",
-                "i4": "Stratégie numérique",
-                "i5": "Consultation en communication, web&nbsp;et marketing"
+                "i4": "Stratégie numérique"
             },
             "production": {
                 "title": "Production",
                 "i1": "Création d’image de marque, publicitaire et imprimé",
                 "i2": "Design et développement web",
                 "i3": "Production vidéo",
-                "i4": "Campagne de marketing direct"
-            },
-            "support": {
-                "title": "Accompagnement",
-                "i1": "Solutions de production, transport et&nbsp;entreposage",
-                "i2": "Mise en marché et suivi des ventes",
-                "i3": "Gestion des médias sociaux",
-                "i4": "Gestion de boutique en ligne"
-            },
-            "leftover": {
-                "title": "Et tout le reste",
-                "i1": "Acquisition de licences",
-                "i2": "Solutions de centres d’appels",
-                "i3": "Organisation d’événements",
-                "i4": "Relations publiques",
-                "i5": "Recherche de partenaires et&nbsp;commanditaires"
+                "i4": "Gestion des médias sociaux"
             }
         },
         "clientzone": {

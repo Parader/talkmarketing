@@ -90,7 +90,7 @@ export default class TeamSlider extends React.Component {
 
     render() {
         return(
-            <div className='teamContainer'>
+            <div className='teamContainer fadefx'>
                 <div className='sliderNavigation'>
                     <div className="swiper-pagination"></div>
                 </div>

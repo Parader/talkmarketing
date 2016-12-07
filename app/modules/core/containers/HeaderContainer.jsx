@@ -35,7 +35,8 @@ export default class HeaderContainer extends React.Component{
 
     handleResize(e){
         if(Meteor.isClient){
-            Session.set("sideMarges", parseFloat(window.getComputedStyle(document.getElementsByClassName('wrapper')[0], null).getPropertyValue('padding-left'))*2);
+            if(FlowRouter.current().route.name != "project" && FlowRouter.current().route.name != "job")
+                Session.set("sideMarges", parseFloat(window.getComputedStyle(document.getElementsByClassName('wrapper')[0], null).getPropertyValue('padding-left'))*2);
         }
     }
 
