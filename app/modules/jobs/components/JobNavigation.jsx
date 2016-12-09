@@ -24,13 +24,7 @@ export default class JobNavigation extends React.Component{
                             <span className='filter'></span>
                             <span className='scrollIndicator'><T>common.jobs.changeJob</T></span>
                         </li>
-                        <li onClick={()=>{this.props.changeOffer(3, "gestionnaire-medias-sociaux")}} ref='third'>
-                            <T>common.socialMedia.title</T> <Arrow orientation='right' />
-                            <span className='bg socialMedia'></span>
-                            <span className='filter'></span>
-                            <span className='scrollIndicator'><T>common.jobs.changeJob</T></span>
-                        </li>
-                        <li onClick={()=>{this.props.changeOffer(4, "spontaneous")}} ref='fourth'>
+                        <li onClick={()=>{this.props.changeOffer(3, "spontaneous")}} ref='third'>
                             <T>common.team.jobs.spontaneous</T> <Arrow orientation='right' />
                             <span className='bg spontaneous'></span>
                             <span className='filter'></span>
@@ -56,13 +50,7 @@ export default class JobNavigation extends React.Component{
                             <span className='filter'></span>
                             <span className='scrollIndicator'><T>common.jobs.changeJob</T></span>
                         </li>
-                        <li onClick={()=>{this.props.changeOffer(3, "gestionnaire-medias-sociaux")}} ref='third'>
-                            <T>common.socialMedia.title</T> <Arrow orientation='right' />
-                            <span className='bg socialMedia'></span>
-                            <span className='filter'></span>
-                            <span className='scrollIndicator'><T>common.jobs.changeJob</T></span>
-                        </li>
-                        <li onClick={()=>{this.props.changeOffer(4, "spontaneous")}} ref='fourth'>
+                        <li onClick={()=>{this.props.changeOffer(3, "spontaneous")}} ref='third'>
                             <T>common.team.jobs.spontaneous</T> <Arrow orientation='right' />
                             <span className='bg spontaneous'></span>
                             <span className='filter'></span>
@@ -88,45 +76,7 @@ export default class JobNavigation extends React.Component{
                             <span className='filter'></span>
                             <span className='scrollIndicator'><T>common.jobs.changeJob</T></span>
                         </li>
-                        <li onClick={()=>{this.props.changeOffer(3, "gestionnaire-medias-sociaux")}} ref='third'>
-                            <T>common.socialMedia.title</T> <Arrow orientation='right' />
-                            <span className='bg socialMedia'></span>
-                            <span className='filter'></span>
-                            <span className='scrollIndicator'><T>common.jobs.changeJob</T></span>
-                        </li>
-                        <li onClick={()=>{this.props.changeOffer(4, "spontaneous")}} ref='fourth'>
-                            <T>common.team.jobs.spontaneous</T> <Arrow orientation='right' />
-                            <span className='bg spontaneous'></span>
-                            <span className='filter'></span>
-                            <span className='scrollIndicator'><T>common.jobs.changeJob</T></span>
-                        </li>
-                    </ul>
-                </div>
-            )
-        }else if(this.props.current == "socialMedia"){
-            return(
-                <div className='jobNavigationContainer'>
-                    <p><T>common.motionDesigner.otherPositions.title</T></p>
-                    <ul>
-                        <li onClick={()=>{this.props.changeOffer(1, "frontendDev")}} ref='first'>
-                            <T>common.frontEnd.title</T> <Arrow orientation='right' />
-                            <span className='bg frontendDev'></span>
-                            <span className='filter'></span>
-                            <span className='scrollIndicator'><T>common.jobs.changeJob</T></span>
-                        </li>
-                        <li onClick={()=>{this.props.changeOffer(2, "motion-designer")}} ref='second'>
-                            <T>common.motionDesigner.title</T> <Arrow orientation='right' />
-                            <span className='bg motionDesigner'></span>
-                            <span className='filter'></span>
-                            <span className='scrollIndicator'><T>common.jobs.changeJob</T></span>
-                        </li>
-                        <li onClick={()=>{this.props.changeOffer(3, "directeur-marketing")}} ref='third'>
-                            <T>common.directeurMarketing.title</T> <Arrow orientation='right' />
-                            <span className='bg marketingDir'></span>
-                            <span className='filter'></span>
-                            <span className='scrollIndicator'><T>common.jobs.changeJob</T></span>
-                        </li>
-                        <li onClick={()=>{this.props.changeOffer(4, "spontaneous")}} ref='fourth'>
+                        <li onClick={()=>{this.props.changeOffer(3, "spontaneous")}} ref='third'>
                             <T>common.team.jobs.spontaneous</T> <Arrow orientation='right' />
                             <span className='bg spontaneous'></span>
                             <span className='filter'></span>
@@ -155,12 +105,6 @@ export default class JobNavigation extends React.Component{
                         <li onClick={()=>{this.props.changeOffer(3, "motion-designer")}} ref='third'>
                             <T>common.motionDesigner.title</T> <Arrow orientation='right' />
                             <span className='bg motionDesigner'></span>
-                            <span className='filter'></span>
-                            <span className='scrollIndicator'><T>common.jobs.changeJob</T></span>
-                        </li>
-                        <li onClick={()=>{this.props.changeOffer(4, "gestionnaire-medias-sociaux")}} ref='fourth'>
-                            <T>common.socialMedia.title</T> <Arrow orientation='right' />
-                            <span className='bg socialMedia'></span>
                             <span className='filter'></span>
                             <span className='scrollIndicator'><T>common.jobs.changeJob</T></span>
                         </li>

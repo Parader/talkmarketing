@@ -151,7 +151,7 @@ button{
 .animationLoadingMask{
     position:absolute; top:0px; left:0; right:0; width:100%; height:100vh; background:$white; z-index:60; margin:auto;
 }
-
+.mainContainer > .scroll-element.scroll-x{display:none!important;}
 /* Header */
 header{height:88px;}
 .header{
@@ -1726,11 +1726,11 @@ footer, .footerContainer{
     }
 
     /* FOOTER */
-    footer, .footerContainer{height:350px;}
+    /*footer, .footerContainer{height:350px;}
     .footerContainer .left .socialContainer{position: relative; top: -92px;}
     .footerContainer .right .cta{position:relative; top:-64px;}
     .footerContainer .right .termsContainer{position:relative; top:-64px; }
-    .footerContainer .left .copyright{line-height:22px; max-width: 300px; margin: auto;}
+    .footerContainer .left .copyright{line-height:22px; max-width: 300px; margin: auto;}*/
 }
 
 
