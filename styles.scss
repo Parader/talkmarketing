@@ -296,7 +296,7 @@ header{height:88px;}
                 -webkit-transform: translateZ(0);
                 text-align:center; position:absolute; top: 0; margin:auto; width:100%; height: calc(100vh - 88px); z-index:4;
                 .movingPart{height:475px; position:absolute; top: 88px; bottom: 0; margin:auto; left:0; right:0;}
-                h1{font-size:60px; font-weight:300; padding-top:8px; display:inline-block; max-width:800px; text-align:center; margin-top:0; margin-bottom:22px; letter-spacing:2px;}
+                h1{font-size:60px; font-weight:300; padding-top:8px; display:inline-block; max-width:800px; width:100%; text-align:center; margin-top:0; margin-bottom:22px; letter-spacing:2px;}
                 .hook{font-size: responsive 22px 24px; font-range:420px 1280px; font-weight:100; margin:20px auto 60px auto; max-width:620px; line-height:42px;}
                 .scrollDown{
                     width:250px; margin:auto; position:absolute; bottom:33px; left: 0; right: 0;
@@ -1431,7 +1431,8 @@ footer, .footerContainer{
 
 @media screen and (max-width: 860px) {/*           ------------------------------860--------------------------------------                */
     /* HOME */
-    .homeContainer .landingWrapper .landingContainer .content .hook{width:560px; line-height:64px;}
+    .homeContainer .landingWrapper .landingContainer .content .hook{width:560px; line-height:38px;}
+    .homeContainer .landingWrapper .landingContainer .content h1{font-size:32px;}
     /* AGENCY */
     .agencyContainer .moments .gridContainer .grid .poutineville p{width: 100%; margin: auto; padding:0 22px; font-size: 14px; line-height: 24px;}
     .agencyContainer .moments .gridContainer .grid .plante h6{font-size:12px;}
@@ -1558,7 +1559,7 @@ footer, .footerContainer{
 
     /* HOME */
     .homeContainer .landingWrapper .landingContainer{width:100%;}
-    .homeContainer .landingWrapper .landingContainer .content .hook{width:360px; line-height:50px;}
+    .homeContainer .landingWrapper .landingContainer .content .hook{width:360px; line-height:32px; font-size: 19px;}
     .animNavContainer .animTimeline.mobile{display:block;}
     .animNavContainer .animTimeline.desktop{display:none;}
     .animNavContainer{z-index:99; height:182px; width: 40px;}
