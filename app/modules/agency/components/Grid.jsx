@@ -10,9 +10,9 @@ export default class Grid extends React.Component{
     constructor(){
         super();
         this.state = {
-            canLoadMore:true
+            canLoadMore:false
         }
-        this.loadMore = this.loadMore.bind(this);
+        //this.loadMore = this.loadMore.bind(this);
     }
 
     componentDidMount(){
@@ -22,11 +22,13 @@ export default class Grid extends React.Component{
             percentPosition: true,
             gutter: ".gutter-sizer"
         });
+        //this.loadMore();
     }
 
-    loadMore(){
+    /*loadMore(){
         const item1 = document.createElement("div");
         item1.className = 'grid-item demiW tierH dinner hasBg';
+
         const item2 = document.createElement("div");
         item2.className = 'grid-item tier2H macWindows';
         const paragraph = document.createElement("p");
@@ -105,7 +107,7 @@ export default class Grid extends React.Component{
             canLoadMore:false
         });
         this.pack.layout();
-    }
+    }*/
 
     render() {
         const loadMore = this.state.canLoadMore ? <LoadMore loadMore={this.loadMore} /> : <SocialMedia />;
@@ -156,9 +158,35 @@ export default class Grid extends React.Component{
                         <h6><T>common.team.photos.poutineTag</T></h6>
                         <p><T>common.team.photos.poutine</T></p>
                     </div>
+                    <div className='fadefx grid-item demiW tierH dinner hasBg'></div>
+                    <div className='fadefx grid-item tier2H macWindows'>
+                        <p>
+                            <T>common.team.photos.computer</T>
+                        </p>
+                        <div className='left'>
+                            <span>50%</span>
+                            Mac
+                            <img src='/images/mac.svg' />
+                        </div>
+                        <div className='right'>
+                            <span>50%</span>
+                            Windows
+                            <img src='/images/pc.svg' />
+                        </div>
+                    </div>
+                    <div className='fadefx grid-item demiW tier2H emmerlaus'></div>
+                    <div className='fadefx grid-item demiW tier2H plante'>
+                        <div>
+                            <h6><T>common.team.photos.plantTag</T></h6>
+                            <p><T>common.team.photos.plant</T></p>
+                        </div>
+                    </div>
+                    <div className='fadefx grid-item demiW tierH demiW carnaval'></div>
+                    <div className='fadefx grid-item tierH tierW karl'></div>
+                    <div className='fadefx grid-item tierH tier2W cochon hasBg'></div>
                 </div>
 
-                {loadMore}
+                <SocialMedia />
             </div>
         )
     }

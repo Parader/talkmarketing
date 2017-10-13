@@ -11,7 +11,9 @@ export default class UltimateVoiceBuilder extends React.Component{
     constructor(props) {
         super(props);
         this.goUp = this.goUp.bind(this);
-
+        if(Meteor.isClient){
+            Session.set("inProjects", true);
+        }
     }
 
     componentDidMount() {

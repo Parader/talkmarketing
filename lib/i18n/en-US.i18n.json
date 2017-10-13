@@ -10,13 +10,15 @@
     "footer": {
         "copyright": "© 2015 TALK Marketing Agency. All&nbsp;rights&nbsp;reserved.",
         "cta": "Say hello",
-        "privacy": "Privacy"
+        "privacy": "Privacy",
+        "ctaText":"Let's work together."
     },
     "home": {
         "pageTitle":"Home",
-        "tagline": "Marketing and web agency",
-        "title": "Take&nbsp;your&nbsp;ideas to&nbsp;the&nbsp;next&nbsp;level.",
-        "cta": "Here's how"
+        "tagline": "We’re&nbsp;a talented marketing and&nbsp;web&nbsp;agency.",
+        "title": "We looked for a catch phrase to&nbsp;convince&nbsp;you, but&nbsp;we&nbsp;feel&nbsp;this animation is&nbsp;much&nbsp;more&nbsp;awesome.",
+        "cta": "Here's how",
+        "animation":"Watch the animation"
     },
     "animation": {
         "frame1": "This, is you.",
@@ -80,6 +82,8 @@
     },
     "team": {
         "teamSlider": {
+            "introTitle":"The Team",
+            "intro":"Family members",
             "taglineF": "This is",
             "taglineM": "This is",
             "boutonTitle": "But what else?",
@@ -123,7 +127,7 @@
                 "t9": "The logical artist"
             },
             "myTitles": {
-                "t1": "President",
+                "t1": "Manager",
                 "t2": "Hidden artist",
                 "t3": "The rallyer",
                 "t4": "The puppet master",
@@ -153,7 +157,7 @@
                 "t9": "Squirrel tamer"
             },
             "kTitles": {
-                "t1": "President of TALK Entreprises",
+                "t1": "President",
                 "t2": "Member of SETI",
                 "t3": "The elder",
                 "t4": "The mastermind",
@@ -475,30 +479,14 @@
                 "i1": "Business plan development",
                 "i2": "Marketing plan development",
                 "i3": "Communications plan development",
-                "i4": "Digital marketing",
-                "i5": "Marketing and web consulting"
+                "i4": "Digital marketing"
             },
             "production": {
                 "title": "Production",
                 "i1": "Brand, print and ad design",
                 "i2": "Web design and development",
                 "i3": "Video production",
-                "i4": "Direct marketing campaigns"
-            },
-            "support": {
-                "title": "Support",
-                "i1": "Production, transportation and storage solutions",
-                "i2": "Sales and marketing tracking",
-                "i3": "Social media management",
-                "i4": "Online retail management"
-            },
-            "leftover": {
-                "title": "And everything else",
-                "i1": "License acquisition",
-                "i2": "Call center solutions",
-                "i3": "Event planning",
-                "i4": "Public relations",
-                "i5": "Partner and sponsorship search"
+                "i4": "Social media management"
             }
         },
         "clientzone": {

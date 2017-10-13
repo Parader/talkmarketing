@@ -84,9 +84,6 @@ export default class Agency extends React.Component{
             <span>
                 <div className='wrapper' ref='wrapper'>
                     <div className='agencyContainer'>
-                        <div className='team section'>
-                            <TeamSlider />
-                        </div>
                         <div className='ambiance section'>
                             <div className='text'>
                                 <h1 className='miniTitle fadefx'><T>common.team.culture.tag</T></h1>
@@ -96,6 +93,13 @@ export default class Agency extends React.Component{
                             <div className='image fadefx'>
                                 <img src='/images/ambiance.jpg' alt='Ambiance chez Talk' />
                             </div>
+                        </div>
+                        <div className='team section'>
+                            <div className='text'>
+                                <h1 className='miniTitle fadefx'><T>common.team.teamSlider.introTitle</T></h1>
+                                <h2 className='fadefx'><T>common.team.teamSlider.intro</T></h2>
+                            </div>
+                            <TeamSlider />
                         </div>
                         <div className='moments section'>
                             <h4 className='miniTitle fadefx'><T>common.team.photos.tag</T></h4>
@@ -115,9 +119,9 @@ export default class Agency extends React.Component{
                                 </div>
                                 <div className='offreDemplois col l4 s12'>
                                     <div className='offreWrapper'>
-                                        <h2 className='title'><T>common.team.jobs.jobSocialTitle1</T><br /><T>common.team.jobs.jobSocialTitle2</T></h2>
-                                        <p><T>common.team.jobs.jobSocialText</T></p>
-                                        <button className='semiShadow' onClick={()=> this.goToJob("gestionnaire-medias-sociaux")}><T>common.team.jobs.jobButton</T> <Arrow orientation="right" /></button>
+                                        <h2 className='title'><T>common.team.jobs.jobDevTitle1</T><br /><T>common.team.jobs.jobDevTitle2</T></h2>
+                                        <p><T>common.team.jobs.jobDevText</T></p>
+                                        <button className='semiShadow' onClick={()=> this.goToJob("front-end")}><T>common.team.jobs.jobButton</T> <Arrow orientation="right" /></button>
                                     </div>
                                 </div>
                                 <div className='offreDemplois col l4 s12'>

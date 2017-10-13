@@ -13,6 +13,7 @@ export default class SocialMedia extends React.Component{
                 <div className='socialContainer'>
                     <a href='https://facebook.com/talkmkt/' target='_blank'><div className='social facebook'></div></a>
                     <a href='https://www.instagram.com/talkmarketing/' target='_blank'><div className='social instagram'></div></a>
+                    <a href='https://www.linkedin.com/company/talk-marketing-agency' target='_blank'><div className='social linkedIn'></div></a>
                 </div>
             </div>
         )

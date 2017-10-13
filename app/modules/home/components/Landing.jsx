@@ -37,9 +37,9 @@ export default class Landing extends React.Component {
 
         if(this.state.allowVideo){
             videoContainer = (this.state.isMobile) ? <div></div> : <video autoPlay loop id='bgVid' poster='/images/preload_video.jpg'>
-                    <source src="http://d27t9uefwdhmj1.cloudfront.net/vidhome-v2.mp4" type="video/mp4" />
-                    <source src="http://d27t9uefwdhmj1.cloudfront.net/vidhome-v2.ogv" type="video/ogv" />
-                    <source src="http://d27t9uefwdhmj1.cloudfront.net/vidhome-v2.webm" type="video/webm" />
+                    <source src="http://d27t9uefwdhmj1.cloudfront.net/vidhome-v3.mp4" type="video/mp4" />
+                    <source src="http://d27t9uefwdhmj1.cloudfront.net/vidhome-v3.ogv" type="video/ogv" />
+                    <source src="http://d27t9uefwdhmj1.cloudfront.net/vidhome-v3.webm" type="video/webm" />
                     Your browser does not support the video tag.
                 </video>;
         }
@@ -63,8 +63,9 @@ export default class Landing extends React.Component {
                         <div className='movingPart' ref='movingPart'>
                             <h1><T>common.home.tagline</T></h1>
                             <p className='hook'><T>common.home.title</T></p>
+                            <button className='newBtn' onClick={this.props.leaveHome}><T>common.home.animation</T> <Arrow orientation="right" /></button>
                         </div>
-                        <div className='scrollDown' onClick={this.props.leaveHome}>
+                        {/*<div className='scrollDown' >
                             <p><T>common.home.cta</T></p>
                             <span className='arrowWrap'>
                                 <svg className='arrowContainer arrowDown' version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -73,7 +74,7 @@ export default class Landing extends React.Component {
                                     <rect className='rect' x="6.9" fill="#FFFFFF" width="1.3" height="20.9"/>
                                 </svg>
                             </span>
-                        </div>
+                        </div>*/}
                     </div>
                 </ReactCSSTransitionGroup>
             </div>

@@ -143,6 +143,7 @@ normalRoute.route('/contact', {
 });
 
 normalRoute.route('/expertise/:projectName', {
+    name:"project",
     action() {
         var projectName = FlowRouter.getParam("projectName");
         if(projectName == "ultimate-voice-builder"){
@@ -156,6 +157,7 @@ normalRoute.route('/expertise/:projectName', {
 });
 
 normalRoute.route('/jobs/:post', {
+    name:"job",
     action() {
         var postName = FlowRouter.getParam("post");
         if(postName == "motion-designer"){
