@@ -11,11 +11,11 @@ We take pride in our work, our achievements and our commitment to our clients. O
 <img src="Your ScreenShot2 URL"  height="400" width="600" >
 
 # Features 
-/./features it provides fill it over here
+features it provides fill it over here
 
 <ul>
-<li>/./Feature 1</li>
-<li>/./Feature 2</li>
+<li> Feature 1</li>
+<li> Feature 2</li>
 </ul>
 
 
